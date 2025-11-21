@@ -45,34 +45,97 @@ export class MockHttp implements IHttp {
         return new Promise(async (resolve, reject) => {
             if (url.indexOf('atHall/PlayerEnter') > -1) {
                 resolve({
-                    isSucc: true,
-                    res: {
-                        "token": "d89d4bff69c99e334cdf658fa6fc6152",
+                    "isSucc": true,
+                    "res": {
+                        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGRiOTFmMWIzMjIyNWY0ZmNmYzQ3OTYiLCJwbGF5ZXJJZCI6MjAsImFjY291bnQiOiJoNV8xIiwiZ2FtZUNvZGUiOiJqaWFuY2h1cWlhbyIsInNlcnZlck5vIjoiZGV2XzAwMSIsIm5hbWUiOiJoNV8xIiwicHMiOjEwLCJnb2xkIjo2MDAsImRpYW1vbmQiOjEwMCwibWF4QmF0dGxlSWQiOjgsImNyZWF0ZXRpbWUiOiIyMDI1LTA5LTMwVDA4OjE2OjQ5LjYyMVoiLCJudW1zT25lIjoxMDAwMDAwMDAwMCwiaWF0IjoxNzYzNzM0MDM4fQ.Xq4FdM83o3xb0Z6EHDhK6t8FHF7DcbIXJQSzoUaUaSQ",
                         "playerInfo": {
-                            "playerId": 6,
-                            "account": "h5_4",
-                            "serverNo": "test",
-                            "name": "h5_4",
-                            "gold": 0,
-                            "ps": 0,
-                            "diamond": 0,
-                            "createtime": "2024-06-18T05:26:38.555Z"
+                            "playerId": 20,
+                            "account": "h5_1",
+                            "gameCode": "jianchuqiao",
+                            "serverNo": "dev_001",
+                            "name": "h5_1",
+                            "gold": 600,
+                            "ps": 10,
+                            "diamond": 100,
+                            "maxBattleId": 8,
+                            "createtime": "2025-09-30T08:16:49.621Z",
+                            "numsOne": 10000000000
                         }
                     }
                 })
             }
-            if (url.indexOf('atHall/EnterRoom') > -1) {
+            if (url.indexOf('atHall/PlayerMission') > -1) {
                 resolve({
-                    "roomId": 18,
-                    "wsUrl": "ws://127.0.0.1:8012",
-                    "sign": "8f14e45fceea167a5a36dedd4bea2543",
-                    "seats": [
-                        {
-                            "roomId": 18,
-                            "playerId": 6,
-                            "seatIndex": 0
+                    "isSucc": true,
+                    "res": {
+                        "playerId": 20,
+                        "missionInfo": {
+                            "playerId": 20,
+                            "groupId": 0,
+                            "missionItems": [
+                                {
+                                    "battleId": 1,
+                                    "index": 0,
+                                    "maxScore": 2407,
+                                    "maxStar": 3
+                                },
+                                {
+                                    "battleId": 2,
+                                    "index": 1,
+                                    "maxScore": 678,
+                                    "maxStar": 3
+                                },
+                                {
+                                    "battleId": 3,
+                                    "index": 2,
+                                    "maxScore": 948,
+                                    "maxStar": 3
+                                },
+                                {
+                                    "battleId": 4,
+                                    "index": 3,
+                                    "maxScore": 592,
+                                    "maxStar": 3
+                                },
+                                {
+                                    "battleId": 5,
+                                    "index": 4,
+                                    "maxScore": 1284,
+                                    "maxStar": 3
+                                },
+                                {
+                                    "battleId": 6,
+                                    "index": 5,
+                                    "maxScore": 1090,
+                                    "maxStar": 3
+                                },
+                                {
+                                    "battleId": 7,
+                                    "index": 6,
+                                    "maxScore": 386,
+                                    "maxStar": 3
+                                },
+                                {
+                                    "battleId": 8,
+                                    "index": 7,
+                                    "maxScore": 0,
+                                    "maxStar": 0
+                                },
+                                {
+                                    "battleId": 9,
+                                    "index": 8,
+                                    "maxScore": 0,
+                                    "maxStar": 0
+                                },
+                                {
+                                    "battleId": 10,
+                                    "index": 9,
+                                    "maxScore": 0,
+                                    "maxStar": 0
+                                }
+                            ]
                         }
-                    ]
+                    }
                 })
             }
         })

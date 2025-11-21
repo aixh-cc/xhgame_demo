@@ -70,7 +70,7 @@ export class GateView extends CocosBaseUiView implements IGateViewVM {
     set battleId(val) {
         this._battleId = val
         if (val != null) {
-            this.node.getChildByPath('main/mission/homeBox02/curBattleIdText').getComponent(Label).string = '当前第' + val.toString() + '关'
+            this.node.getChildByPath('main/mission/homeBox02/curInfo/curBattleIdText').getComponent(Label).string = '当前第' + val.toString() + '关'
         }
     }
 

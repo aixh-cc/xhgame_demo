@@ -42,6 +42,7 @@ export class HelpGuideSystem extends System {
             comp.item_index++
             this.startShow(comp)
         }
+        console.log('guideItem', comp.vm)
         comp.notify();
     }
 

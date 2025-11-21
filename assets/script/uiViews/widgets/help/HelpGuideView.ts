@@ -42,7 +42,7 @@ export class HelpGuideView extends CocosBaseUiView implements IHelpGuideViewVM {
         }
         if (this._targetNodePath != '') {
             this.targetNode = find(this._targetNodePath)
-            console.log('fand this.targetNode', this.targetNode)
+            console.log('fand this.targetNode', this._targetNodePath, this.targetNode)
             if (this.targetNode) {
                 this.is_need_update_ui = true
                 this.targetNode.on(Node.EventType.TOUCH_END, this.handleClick.bind(this))
@@ -87,7 +87,9 @@ export class HelpGuideView extends CocosBaseUiView implements IHelpGuideViewVM {
         this.node.getChildByName('sign').getChildByName('info').setPosition(pos)
     }
     handleClick() {
+        console.log('handleClick')
         if (this.targetNode) {
+            console.log('emit help_guide_btn_click_by_uuid')
             xhgame.event.emit('help_guide_btn_click_by_uuid', this.targetNodePath)
         }
     }

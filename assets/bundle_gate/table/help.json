@@ -16,8 +16,8 @@
             }
         ],
         "guideItems": [{
-            "targetNodePath": "root/UICanvas/gate_index/bottom/startGame",
-            "text": "点击“开始游戏”",
+            "targetNodePath": "root/UICanvas/gate_index/main/mission/homeBox02/curInfo",
+            "text": "选择“关卡”",
             "text_size": "200,200",
             "text_pos_index": 5,
             "delay_time": 0

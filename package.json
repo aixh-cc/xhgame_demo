@@ -1,0 +1,13 @@
+{
+  "name": "xhgame_demo",
+  "uuid": "26327535-6314-4226-a6f6-71301a5c916a",
+  "creator": {
+    "version": "3.8.7"
+  },
+  "dependencies": {
+    "@aixh-cc/xhgame_ec_framework": "^1.2.0"
+  },
+  "devDependencies": {
+    "node-localstorage": "^3.0.5"
+  }
+}

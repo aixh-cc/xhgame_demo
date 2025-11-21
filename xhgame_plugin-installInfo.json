@@ -1,0 +1,1450 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-21T12:49:28.679Z",
+  "installedComponentMetas": [
+    {
+      "componentCode": "xhgame_base",
+      "componentName": "xhgame基础base",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "xhgame基础base",
+      "author": "xhgame",
+      "group": "coreTemplates",
+      "tags": [
+        "coreTemplates"
+      ],
+      "files": [
+        "bundle_factory.meta",
+        "game.scene",
+        "game.scene.meta",
+        "scene.scene",
+        "scene.scene.meta",
+        "script.meta",
+        "script/GameEntity.ts",
+        "script/GameEntity.ts.meta",
+        "script/Globle.d.ts",
+        "script/Globle.d.ts.meta",
+        "script/RegisterComps.ts",
+        "script/RegisterComps.ts.meta",
+        "script/baseCocos.meta",
+        "script/baseCocos/CocosAudioDrive.ts",
+        "script/baseCocos/CocosAudioDrive.ts.meta",
+        "script/baseCocos/CocosBaseItemView.ts",
+        "script/baseCocos/CocosBaseItemView.ts.meta",
+        "script/baseCocos/CocosBaseUiView.ts",
+        "script/baseCocos/CocosBaseUiView.ts.meta",
+        "script/baseCocos/CocosDrives.ts",
+        "script/baseCocos/CocosDrives.ts.meta",
+        "script/baseCocos/CocosGame.ts",
+        "script/baseCocos/CocosGame.ts.meta",
+        "script/baseCocos/CocosGameManagers.ts",
+        "script/baseCocos/CocosGameManagers.ts.meta",
+        "script/baseCocos/CocosUiDrive.ts",
+        "script/baseCocos/CocosUiDrive.ts.meta",
+        "script/ccComponents.meta",
+        "script/ccComponents/PlistSpriteComponent.meta",
+        "script/ccComponents/audioSource.meta",
+        "script/ccComponents/audioSource/AudioEffect.ts",
+        "script/ccComponents/audioSource/AudioEffect.ts.meta",
+        "script/ccComponents/audioSource/AudioMusic.ts",
+        "script/ccComponents/audioSource/AudioMusic.ts.meta",
+        "script/ccComponents/sdk.meta",
+        "script/comps.meta",
+        "script/comps/battle.meta",
+        "script/comps/battle/panel.meta",
+        "script/comps/common.meta",
+        "script/comps/enter.meta",
+        "script/comps/enter/GameEnterComp.ts",
+        "script/comps/enter/GameEnterComp.ts.meta",
+        "script/comps/enter/LoadResourceToGateComp.ts",
+        "script/comps/enter/LoadResourceToGateComp.ts.meta",
+        "script/comps/gate.meta",
+        "script/comps/gate/GateToBattleComp.ts",
+        "script/comps/gate/GateToBattleComp.ts.meta",
+        "script/comps/gate/dialog.meta",
+        "script/comps/gate/panel.meta",
+        "script/comps/models.meta",
+        "script/comps/models/BattleModelComp.ts",
+        "script/comps/models/BattleModelComp.ts.meta",
+        "script/comps/models/PlayerModelComp.ts",
+        "script/comps/models/PlayerModelComp.ts.meta",
+        "script/comps/player.meta",
+        "script/comps/player/PlayerLoginComp.ts",
+        "script/comps/player/PlayerLoginComp.ts.meta",
+        "script/comps/sdk.meta",
+        "script/comps/third.meta",
+        "script/itemViews.meta",
+        "script/managers.meta",
+        "script/managers/MyAssetManager.ts",
+        "script/managers/MyAssetManager.ts.meta",
+        "script/managers/MyAudioManager.ts",
+        "script/managers/MyAudioManager.ts.meta",
+        "script/managers/MyEventManager.ts",
+        "script/managers/MyEventManager.ts.meta",
+        "script/managers/MyFactoryManager.ts",
+        "script/managers/MyFactoryManager.ts.meta",
+        "script/managers/MyNetManager.ts",
+        "script/managers/MyNetManager.ts.meta",
+        "script/managers/MyTableManager.ts",
+        "script/managers/MyTableManager.ts.meta",
+        "script/managers/MyUiManager.ts",
+        "script/managers/MyUiManager.ts.meta",
+        "script/managers/myFactory.meta",
+        "script/managers/myFactory/MyCocosFactoryConfig.ts",
+        "script/managers/myFactory/MyCocosFactoryConfig.ts.meta",
+        "script/managers/myFactory/factorys.meta",
+        "script/managers/myFactory/itemTemplates.meta",
+        "script/managers/myFactory/itemTemplates/BaseCocosItem.ts",
+        "script/managers/myFactory/itemTemplates/BaseCocosItem.ts.meta",
+        "script/managers/myTable.meta",
+        "script/managers/myTable/MyTableConfig.ts",
+        "script/managers/myTable/MyTableConfig.ts.meta",
+        "script/managers/myTable/tables.meta",
+        "script/uiViews.meta",
+        "script/uiViews/FirstUiView.ts",
+        "script/uiViews/FirstUiView.ts.meta",
+        "script/uiViews/battle.meta",
+        "script/uiViews/battle/panel.meta",
+        "script/uiViews/gate.meta",
+        "script/uiViews/gate/dialog.meta",
+        "script/uiViews/gate/panel.meta",
+        "script/xhgame.ts",
+        "script/xhgame.ts.meta"
+      ],
+      "stars": 4,
+      "dependencies": [],
+      "appendScripts": [],
+      "installedAt": "2025-11-21T12:34:59.938Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "EffectItemFactory",
+      "componentName": "特效模板工厂",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "特效项模板",
+      "author": "hd",
+      "group": "itemFactorys",
+      "tags": [
+        "EffectItemFactory"
+      ],
+      "dependencies": [
+        "script/managers/myFactory/MyCocosFactoryConfig.ts"
+      ],
+      "files": [
+        "bundle_factory/item_templates/cocosEffectItem.prefab",
+        "bundle_factory/item_templates/cocosEffectItem.prefab.meta",
+        "script/managers/myFactory/factorys/EffectItemFactory.ts",
+        "script/managers/myFactory/factorys/EffectItemFactory.ts.meta",
+        "script/managers/myFactory/itemTemplates/CocosEffectItem.ts",
+        "script/managers/myFactory/itemTemplates/CocosEffectItem.ts.meta"
+      ],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "factory",
+          "sourceFilePath": "script/managers/myFactory/MyCocosFactoryConfig.ts",
+          "factoryType": "effectItem",
+          "factoryClassName": "EffectItemFactory",
+          "itemClassName": "CocosEffectItem",
+          "driveClassName": "CocosEffectItemProduceDrive"
+        }
+      ],
+      "installedAt": "2025-11-21T12:38:42.893Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "TextUiItemFactory",
+      "componentName": "文本ui模板工厂",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "文本ui项模板",
+      "author": "hd",
+      "group": "itemFactorys",
+      "tags": [
+        "TextUiItemFactory"
+      ],
+      "dependencies": [
+        "script/managers/myFactory/MyCocosFactoryConfig.ts"
+      ],
+      "files": [
+        "bundle_factory/item_templates/cocosTextUiItem.prefab",
+        "bundle_factory/item_templates/cocosTextUiItem.prefab.meta",
+        "script/managers/myFactory/factorys/TextUiItemFactory.ts",
+        "script/managers/myFactory/factorys/TextUiItemFactory.ts.meta",
+        "script/managers/myFactory/itemTemplates/CocosTextUiItem.ts",
+        "script/managers/myFactory/itemTemplates/CocosTextUiItem.ts.meta"
+      ],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "factory",
+          "sourceFilePath": "script/managers/myFactory/MyCocosFactoryConfig.ts",
+          "factoryType": "textUiItem",
+          "factoryClassName": "TextUiItemFactory",
+          "itemClassName": "CocosTextUiItem",
+          "driveClassName": "CocosTextUiItemProduceDrive"
+        }
+      ],
+      "installedAt": "2025-11-21T12:38:45.261Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "TiledItemFactory",
+      "componentName": "地板模板工厂",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "地板项模板",
+      "author": "hd",
+      "group": "itemFactorys",
+      "tags": [
+        "TiledItemFactory"
+      ],
+      "dependencies": [
+        "script/managers/myFactory/MyCocosFactoryConfig.ts"
+      ],
+      "files": [
+        "bundle_factory/item_templates/cocosTiledItem.prefab",
+        "bundle_factory/item_templates/cocosTiledItem.prefab.meta",
+        "script/managers/myFactory/factorys/TiledItemFactory.ts",
+        "script/managers/myFactory/factorys/TiledItemFactory.ts.meta",
+        "script/managers/myFactory/itemTemplates/CocosTiledItem.ts",
+        "script/managers/myFactory/itemTemplates/CocosTiledItem.ts.meta"
+      ],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "factory",
+          "sourceFilePath": "script/managers/myFactory/MyCocosFactoryConfig.ts",
+          "factoryType": "tiledItem",
+          "factoryClassName": "TiledItemFactory",
+          "itemClassName": "CocosTiledItem",
+          "driveClassName": "CocosTiledItemProduceDrive"
+        }
+      ],
+      "installedAt": "2025-11-21T12:38:47.256Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "UiItemFactory",
+      "componentName": "ui模板工厂",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "ui项模板",
+      "author": "hd",
+      "group": "itemFactorys",
+      "tags": [
+        "UiItemFactory"
+      ],
+      "dependencies": [
+        "script/managers/myFactory/MyCocosFactoryConfig.ts"
+      ],
+      "files": [
+        "bundle_factory/item_templates/cocosUiItem.prefab",
+        "bundle_factory/item_templates/cocosUiItem.prefab.meta",
+        "script/managers/myFactory/factorys/UiItemFactory.ts",
+        "script/managers/myFactory/factorys/UiItemFactory.ts.meta",
+        "script/managers/myFactory/itemTemplates/CocosUiItem.ts",
+        "script/managers/myFactory/itemTemplates/CocosUiItem.ts.meta"
+      ],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "factory",
+          "sourceFilePath": "script/managers/myFactory/MyCocosFactoryConfig.ts",
+          "factoryType": "uiItem",
+          "factoryClassName": "UiItemFactory",
+          "itemClassName": "CocosUiItem",
+          "driveClassName": "CocosUiItemProduceDrive"
+        }
+      ],
+      "installedAt": "2025-11-21T12:38:49.438Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "UnitItemFactory",
+      "componentName": "单位模板工厂",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "单位项模板",
+      "author": "hd",
+      "group": "itemFactorys",
+      "tags": [
+        "UnitItemFactory"
+      ],
+      "dependencies": [
+        "script/managers/myFactory/MyCocosFactoryConfig.ts"
+      ],
+      "files": [
+        "bundle_factory/item_templates/cocosUnitItem.prefab",
+        "bundle_factory/item_templates/cocosUnitItem.prefab.meta",
+        "script/managers/myFactory/factorys/UnitItemFactory.ts",
+        "script/managers/myFactory/factorys/UnitItemFactory.ts.meta",
+        "script/managers/myFactory/itemTemplates/CocosUnitItem.ts",
+        "script/managers/myFactory/itemTemplates/CocosUnitItem.ts.meta"
+      ],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "factory",
+          "sourceFilePath": "script/managers/myFactory/MyCocosFactoryConfig.ts",
+          "factoryType": "unitItem",
+          "factoryClassName": "UnitItemFactory",
+          "itemClassName": "CocosUnitItem",
+          "driveClassName": "CocosUnitItemProduceDrive"
+        }
+      ],
+      "installedAt": "2025-11-21T12:38:51.587Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "UnitUiItemFactory",
+      "componentName": "单位ui模板工厂",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "单位ui项模板",
+      "author": "hd",
+      "group": "itemFactorys",
+      "tags": [
+        "UnitUiItemFactory"
+      ],
+      "dependencies": [
+        "script/managers/myFactory/MyCocosFactoryConfig.ts"
+      ],
+      "files": [
+        "bundle_factory/item_templates/cocosUnitUiItem.prefab",
+        "bundle_factory/item_templates/cocosUnitUiItem.prefab.meta",
+        "script/managers/myFactory/factorys/UnitUiItemFactory.ts",
+        "script/managers/myFactory/factorys/UnitUiItemFactory.ts.meta",
+        "script/managers/myFactory/itemTemplates/CocosUnitUiItem.ts",
+        "script/managers/myFactory/itemTemplates/CocosUnitUiItem.ts.meta"
+      ],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "factory",
+          "sourceFilePath": "script/managers/myFactory/MyCocosFactoryConfig.ts",
+          "factoryType": "unitUiItem",
+          "factoryClassName": "UnitUiItemFactory",
+          "itemClassName": "CocosUnitUiItem",
+          "driveClassName": "CocosUnitUiItemProduceDrive"
+        }
+      ],
+      "installedAt": "2025-11-21T12:38:53.271Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "BattleTable",
+      "componentName": "战斗数据表单",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "战斗数据表单",
+      "author": "hd",
+      "group": "tables",
+      "tags": [
+        "table"
+      ],
+      "dependencies": [
+        "script/managers/myTable/MyTableConfig.ts"
+      ],
+      "files": [
+        "bundle_gate/table/battle.json",
+        "bundle_gate/table/battle.json.meta",
+        "script/managers/myTable/tables/BattleTable.ts",
+        "script/managers/myTable/tables/BattleTable.ts.meta"
+      ],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "table",
+          "sourceFilePath": "script/managers/myTable/MyTableConfig.ts",
+          "tableType": "battle",
+          "itemIName": "IBattleTableItem",
+          "tableClassName": "BattleTable"
+        }
+      ],
+      "installedAt": "2025-11-21T12:45:12.217Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "HelpTable",
+      "componentName": "帮助数据表单",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "帮助数据表单",
+      "author": "hd",
+      "group": "tables",
+      "tags": [
+        "table"
+      ],
+      "dependencies": [
+        "script/managers/myTable/MyTableConfig.ts"
+      ],
+      "files": [
+        "bundle_gate/table/help.json",
+        "bundle_gate/table/help.json.meta",
+        "script/managers/myTable/tables/HelpTable.ts",
+        "script/managers/myTable/tables/HelpTable.ts.meta"
+      ],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "table",
+          "sourceFilePath": "script/managers/myTable/MyTableConfig.ts",
+          "tableType": "help",
+          "itemIName": "IHelpTableItem",
+          "tableClassName": "HelpTable"
+        }
+      ],
+      "installedAt": "2025-11-21T12:45:14.417Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "SkillTable",
+      "componentName": "技能数据表单",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "技能数据表单",
+      "author": "hd",
+      "group": "tables",
+      "tags": [
+        "table"
+      ],
+      "dependencies": [
+        "script/managers/myTable/MyTableConfig.ts"
+      ],
+      "files": [
+        "bundle_gate/table/skill.json",
+        "bundle_gate/table/skill.json.meta",
+        "script/managers/myTable/tables/SkillTable.ts",
+        "script/managers/myTable/tables/SkillTable.ts.meta"
+      ],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "table",
+          "sourceFilePath": "script/managers/myTable/MyTableConfig.ts",
+          "tableType": "skill",
+          "itemIName": "ISkillTableItem",
+          "tableClassName": "SkillTable"
+        }
+      ],
+      "installedAt": "2025-11-21T12:45:16.634Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "UnitTable",
+      "componentName": "单位数据表单",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "单位数据表单",
+      "author": "hd",
+      "group": "tables",
+      "tags": [
+        "table"
+      ],
+      "dependencies": [
+        "script/managers/myTable/MyTableConfig.ts"
+      ],
+      "files": [
+        "bundle_gate/table/unit.json",
+        "bundle_gate/table/unit.json.meta",
+        "script/managers/myTable/tables/UnitTable.ts",
+        "script/managers/myTable/tables/UnitTable.ts.meta"
+      ],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "table",
+          "sourceFilePath": "script/managers/myTable/MyTableConfig.ts",
+          "tableType": "unit",
+          "itemIName": "IUnitTableItem",
+          "tableClassName": "UnitTable"
+        }
+      ],
+      "installedAt": "2025-11-21T12:45:18.650Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "battle_sence",
+      "componentName": "battle场景",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "battle场景",
+      "author": "xhgame",
+      "group": "sences",
+      "tags": [
+        "battle场景"
+      ],
+      "files": [
+        "bundle_battle.meta",
+        "bundle_battle/audio.meta",
+        "bundle_battle/audio/battle_bg_audio.mp3",
+        "bundle_battle/audio/battle_bg_audio.mp3.meta",
+        "script/comps/battle/BattleSenceComp.ts",
+        "script/comps/battle/BattleSenceComp.ts.meta",
+        "script/comps/battle/BattleTiledComp.ts",
+        "script/comps/battle/BattleTiledComp.ts.meta"
+      ],
+      "dependencies": [
+        {
+          "componentCode": "TiledItemFactory",
+          "group": "itemFactorys"
+        },
+        {
+          "componentCode": "UiItemFactory",
+          "group": "itemFactorys"
+        }
+      ],
+      "start": 4,
+      "appendScripts": [
+        {
+          "type": "comp",
+          "sourceFilePath": "script/RegisterComps.ts",
+          "compName": "BattleSenceComp",
+          "compPath": "script/comps/battle/BattleSenceComp"
+        },
+        {
+          "type": "comp",
+          "sourceFilePath": "script/RegisterComps.ts",
+          "compName": "BattleTiledComp",
+          "compPath": "script/comps/battle/BattleTiledComp"
+        },
+        {
+          "type": "audio",
+          "sourceFilePath": "script/managers/MyAudioManager.ts",
+          "audioName": "battle_bg_audio",
+          "audioPath": "bundle_battle://audio/battle_bg_audio"
+        }
+      ],
+      "installedAt": "2025-11-21T12:45:25.558Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "gate_sence",
+      "componentName": "gate场景",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "gate场景",
+      "author": "xhgame",
+      "group": "sences",
+      "tags": [
+        "gate场景"
+      ],
+      "files": [
+        "bundle_gate.meta",
+        "bundle_gate/audio.meta",
+        "bundle_gate/audio/gate_bg_audio.mp3",
+        "bundle_gate/audio/gate_bg_audio.mp3.meta",
+        "script/comps/gate/GateSenceComp.ts",
+        "script/comps/gate/GateSenceComp.ts.meta"
+      ],
+      "dependencies": [
+        {
+          "componentCode": "TiledItemFactory",
+          "group": "itemFactorys"
+        },
+        {
+          "componentCode": "UiItemFactory",
+          "group": "itemFactorys"
+        }
+      ],
+      "start": 4,
+      "appendScripts": [
+        {
+          "type": "comp",
+          "sourceFilePath": "script/RegisterComps.ts",
+          "compName": "GateSenceComp",
+          "compPath": "script/comps/gate/GateSenceComp"
+        },
+        {
+          "type": "audio",
+          "sourceFilePath": "script/managers/MyAudioManager.ts",
+          "audioName": "gate_bg_audio",
+          "audioPath": "bundle_gate://audio/gate_bg_audio"
+        }
+      ],
+      "installedAt": "2025-11-21T12:45:27.758Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "battle_dev",
+      "componentName": "battle的调试页",
+      "componentVersion": "1.0.1",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "battle的调试页",
+      "author": "xhgame",
+      "group": "guis",
+      "tags": [
+        "调试页"
+      ],
+      "files": [
+        "bundle_battle/gui/panel/battle_dev/battle_dev.prefab",
+        "bundle_battle/gui/panel/battle_dev/battle_dev.prefab.meta",
+        "script/comps/battle/panel/BattleDevViewComp.ts",
+        "script/comps/battle/panel/BattleDevViewComp.ts.meta",
+        "script/uiViews/battle/panel/BattleDevView.ts",
+        "script/uiViews/battle/panel/BattleDevView.ts.meta"
+      ],
+      "dependencies": [],
+      "start": 4,
+      "appendScripts": [
+        {
+          "type": "gui",
+          "sourceFilePath": "script/managers/MyUiManager.ts",
+          "guiName": "battle_dev",
+          "guiPath": "bundle_battle://gui/panel/battle_dev/battle_dev"
+        },
+        {
+          "type": "comp",
+          "sourceFilePath": "script/RegisterComps.ts",
+          "compName": "BattleDevViewComp",
+          "compPath": "script/comps/battle/panel/BattleDevViewComp"
+        }
+      ],
+      "installedAt": "2025-11-21T12:45:40.524Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "battle_index",
+      "componentName": "battle页",
+      "componentVersion": "1.0.1",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "battle页",
+      "author": "xhgame",
+      "group": "guis",
+      "tags": [
+        "battle页"
+      ],
+      "files": [
+        "bundle_battle/gui/panel/battle_index.meta",
+        "bundle_battle/gui/panel/battle_index/_texture.meta",
+        "bundle_battle/gui/panel/battle_index/_texture/dijiguan.png",
+        "bundle_battle/gui/panel/battle_index/_texture/dijiguan.png.meta",
+        "bundle_battle/gui/panel/battle_index/_texture/fightBtnStop.png",
+        "bundle_battle/gui/panel/battle_index/_texture/fightBtnStop.png.meta",
+        "bundle_battle/gui/panel/battle_index/_texture/jian_magic_value.png",
+        "bundle_battle/gui/panel/battle_index/_texture/jian_magic_value.png.meta",
+        "bundle_battle/gui/panel/battle_index/_texture/topbar.png",
+        "bundle_battle/gui/panel/battle_index/_texture/topbar.png.meta",
+        "bundle_battle/gui/panel/battle_index/_texture/xing2.png",
+        "bundle_battle/gui/panel/battle_index/_texture/xing2.png.meta",
+        "bundle_battle/gui/panel/battle_index/_texture/xing3.png",
+        "bundle_battle/gui/panel/battle_index/_texture/xing3.png.meta",
+        "bundle_battle/gui/panel/battle_index/battle_index.prefab",
+        "bundle_battle/gui/panel/battle_index/battle_index.prefab.meta",
+        "script/comps/battle/panel/BattleViewComp.ts",
+        "script/comps/battle/panel/BattleViewComp.ts.meta",
+        "script/uiViews/battle/panel/BattleView.ts",
+        "script/uiViews/battle/panel/BattleView.ts.meta"
+      ],
+      "dependencies": [],
+      "start": 4,
+      "appendScripts": [
+        {
+          "type": "gui",
+          "sourceFilePath": "script/managers/MyUiManager.ts",
+          "guiName": "battle_index",
+          "guiPath": "bundle_battle://gui/panel/battle_index/battle_index"
+        },
+        {
+          "type": "comp",
+          "sourceFilePath": "script/RegisterComps.ts",
+          "compName": "BattleViewComp",
+          "compPath": "script/comps/battle/panel/BattleViewComp"
+        }
+      ],
+      "installedAt": "2025-11-21T12:45:45.833Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "mission_item",
+      "componentName": "uiItem的body组件",
+      "componentVersion": "1.0.1",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "关卡显示的简单ui组件，适合水墨风的关卡选择",
+      "author": "xhgame",
+      "group": "uiItems",
+      "tags": [
+        "UI组件",
+        "关卡"
+      ],
+      "files": [
+        "script/itemViews/MissionItemView.ts",
+        "script/itemViews/MissionItemView.ts.meta",
+        "bundle_factory/item_views/uiItems/mission_item.meta",
+        "bundle_factory/item_views/uiItems/mission_item/mission_item.prefab",
+        "bundle_factory/item_views/uiItems/mission_item/mission_item.prefab.meta",
+        "bundle_factory/item_views/uiItems/mission_item/mission_item_plist.plist",
+        "bundle_factory/item_views/uiItems/mission_item/mission_item_plist.plist.meta",
+        "bundle_factory/item_views/uiItems/mission_item/mission_item_plist.png",
+        "bundle_factory/item_views/uiItems/mission_item/mission_item_plist.png.meta"
+      ],
+      "dependencies": [],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "enum",
+          "sourceFilePath": "script/managers/myFactory/factorys/UiItemFactory.ts",
+          "className": "UiItemFactory",
+          "enumName": "UiItemEnums",
+          "enumKey": "mission_item",
+          "enumValue": "mission_item"
+        }
+      ],
+      "installedAt": "2025-11-21T12:46:22.873Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "gate_group_mission_dialog",
+      "componentName": "关卡选择弹窗",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "关卡选择弹窗",
+      "author": "hd",
+      "group": "guis",
+      "tags": [],
+      "dependencies": [
+        {
+          "componentCode": "mission_item",
+          "group": "uiItems"
+        },
+        {
+          "componentCode": "UiItemFactory",
+          "group": "itemFactorys"
+        }
+      ],
+      "files": [
+        "script/uiViews/gate/dialog/GateGroupMissionView.ts",
+        "script/uiViews/gate/dialog/GateGroupMissionView.ts.meta",
+        "script/comps/gate/dialog/GateGroupMissionViewComp.ts",
+        "script/comps/gate/dialog/GateGroupMissionViewComp.ts.meta",
+        "script/comps/models/PlayerMissionModelComp.ts",
+        "script/comps/models/PlayerMissionModelComp.ts.meta",
+        "bundle_gate/fonts/sys_bai.fnt",
+        "bundle_gate/fonts/sys_bai.fnt.meta",
+        "bundle_gate/fonts/sys_bai.png",
+        "bundle_gate/fonts/sys_bai.png.meta",
+        "bundle_gate/gui/dialog/gate_group_mission_dialog/_texture.meta",
+        "bundle_gate/gui/dialog/gate_group_mission_dialog/_texture/nothinks.png",
+        "bundle_gate/gui/dialog/gate_group_mission_dialog/_texture/nothinks.png.meta",
+        "bundle_gate/gui/dialog/gate_group_mission_dialog/gate_group_mission_dialog.prefab",
+        "bundle_gate/gui/dialog/gate_group_mission_dialog/gate_group_mission_dialog.prefab.meta"
+      ],
+      "start": 4,
+      "appendScripts": [
+        {
+          "type": "gui",
+          "sourceFilePath": "script/managers/MyUiManager.ts",
+          "guiName": "gate_group_mission_dialog",
+          "guiPath": "bundle_gate://gui/dialog/gate_group_mission_dialog/gate_group_mission_dialog"
+        },
+        {
+          "type": "comp",
+          "sourceFilePath": "script/RegisterComps.ts",
+          "compName": "PlayerMissionModelComp",
+          "compPath": "script/comps/models/PlayerMissionModelComp"
+        },
+        {
+          "type": "comp",
+          "sourceFilePath": "script/RegisterComps.ts",
+          "compName": "GateGroupMissionViewComp",
+          "compPath": "script/comps/gate/dialog/GateGroupMissionViewComp"
+        }
+      ],
+      "installedAt": "2025-11-21T12:46:24.950Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "gate_index",
+      "componentName": "gate页",
+      "componentVersion": "1.0.1",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "gate页",
+      "author": "xhgame",
+      "group": "guis",
+      "tags": [
+        "gate页"
+      ],
+      "files": [
+        "bundle_gate/fonts.meta",
+        "bundle_gate/fonts/honglei_bai.fnt",
+        "bundle_gate/fonts/honglei_bai.fnt.meta",
+        "bundle_gate/fonts/honglei_bai.png",
+        "bundle_gate/fonts/honglei_bai.png.meta",
+        "bundle_gate/fonts/zhangjieming_bai.fnt",
+        "bundle_gate/fonts/zhangjieming_bai.fnt.meta",
+        "bundle_gate/fonts/zhangjieming_bai.png",
+        "bundle_gate/fonts/zhangjieming_bai.png.meta",
+        "bundle_gate/gui/panel/_texture.meta",
+        "bundle_gate/gui/panel/gate_index/_texture/battle_group_bg.jpg",
+        "bundle_gate/gui/panel/gate_index/_texture/battle_group_bg.jpg.meta",
+        "bundle_gate/gui/panel/gate_index/_texture/common.plist",
+        "bundle_gate/gui/panel/gate_index/_texture/common.plist.meta",
+        "bundle_gate/gui/panel/gate_index/_texture/common.png",
+        "bundle_gate/gui/panel/gate_index/_texture/common.png.meta",
+        "bundle_gate/gui/panel/gate_index/_texture/commonBtn01.png",
+        "bundle_gate/gui/panel/gate_index/_texture/commonBtn01.png.meta",
+        "bundle_gate/gui/panel/gate_index/_texture/gate_view_plist.plist",
+        "bundle_gate/gui/panel/gate_index/_texture/gate_view_plist.plist.meta",
+        "bundle_gate/gui/panel/gate_index/_texture/gate_view_plist.png",
+        "bundle_gate/gui/panel/gate_index/_texture/gate_view_plist.png.meta",
+        "bundle_gate/gui/panel/gate_index/_texture/top_xx_bg.png",
+        "bundle_gate/gui/panel/gate_index/_texture/top_xx_bg.png.meta",
+        "bundle_gate/gui/panel/gate_index/gate_index.prefab",
+        "bundle_gate/gui/panel/gate_index/gate_index.prefab.meta",
+        "bundle_gate/icon_plist/goods_list.plist",
+        "bundle_gate/icon_plist/goods_list.plist.meta",
+        "bundle_gate/icon_plist/goods_list.png",
+        "bundle_gate/icon_plist/goods_list.png.meta",
+        "bundle_gate/audio/gate_bg_audio.mp3",
+        "bundle_gate/audio/gate_bg_audio.mp3.meta",
+        "script/comps/gate/panel/GateViewComp.ts",
+        "script/comps/gate/panel/GateViewComp.ts.meta",
+        "script/uiViews/gate/panel/GateView.ts",
+        "script/uiViews/gate/panel/GateView.ts.meta"
+      ],
+      "dependencies": [],
+      "start": 4,
+      "appendScripts": [
+        {
+          "type": "gui",
+          "sourceFilePath": "script/managers/MyUiManager.ts",
+          "guiName": "gate_index",
+          "guiPath": "bundle_gate://gui/panel/gate_index/gate_index"
+        },
+        {
+          "type": "comp",
+          "sourceFilePath": "script/RegisterComps.ts",
+          "compName": "GateViewComp",
+          "compPath": "script/comps/gate/panel/GateViewComp"
+        },
+        {
+          "type": "audio",
+          "sourceFilePath": "script/managers/MyAudioManager.ts",
+          "audioName": "gate_bg_audio",
+          "audioPath": "bundle_gate://audio/gate_bg_audio"
+        }
+      ],
+      "installedAt": "2025-11-21T12:46:27.055Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "gate_setting_dialog",
+      "componentName": "设置弹窗",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "设置弹窗",
+      "author": "hd",
+      "group": "guis",
+      "tags": [],
+      "dependencies": [],
+      "files": [
+        "script/uiViews/gate/dialog/GateSettingDialogView.ts",
+        "script/uiViews/gate/dialog/GateSettingDialogView.ts.meta",
+        "script/comps/gate/dialog/GateSettingDialogViewComp.ts",
+        "script/comps/gate/dialog/GateSettingDialogViewComp.ts.meta",
+        "bundle_gate/gui/dialog/gate_setting_dialog/_texture.meta",
+        "bundle_gate/gui/dialog/gate_setting_dialog/_texture/btn.png",
+        "bundle_gate/gui/dialog/gate_setting_dialog/_texture/btn.png.meta",
+        "bundle_gate/gui/dialog/gate_setting_dialog/_texture/dialog_bg.png",
+        "bundle_gate/gui/dialog/gate_setting_dialog/_texture/dialog_bg.png.meta",
+        "bundle_gate/gui/dialog/gate_setting_dialog/gate_setting_dialog.prefab",
+        "bundle_gate/gui/dialog/gate_setting_dialog/gate_setting_dialog.prefab.meta"
+      ],
+      "start": 4,
+      "appendScripts": [
+        {
+          "type": "gui",
+          "sourceFilePath": "script/managers/MyUiManager.ts",
+          "guiName": "gate_setting_dialog",
+          "guiPath": "bundle_gate://gui/dialog/gate_setting_dialog/gate_setting_dialog"
+        },
+        {
+          "type": "comp",
+          "sourceFilePath": "script/RegisterComps.ts",
+          "compName": "GateSettingDialogViewComp",
+          "compPath": "script/comps/gate/dialog/GateSettingDialogViewComp"
+        }
+      ],
+      "installedAt": "2025-11-21T12:46:29.336Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "loading_battle",
+      "componentName": "loading页",
+      "componentVersion": "1.0.1",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "loading页",
+      "author": "xhgame",
+      "group": "guis",
+      "tags": [
+        "loading页"
+      ],
+      "files": [
+        "bundle_gate/gui/panel/loading_battle.meta",
+        "bundle_gate/gui/panel/loading_battle/_texture.meta",
+        "bundle_gate/gui/panel/loading_battle/_texture/icon_loading_bar.png",
+        "bundle_gate/gui/panel/loading_battle/_texture/icon_loading_bar.png.meta",
+        "bundle_gate/gui/panel/loading_battle/_texture/jdt_bd.png",
+        "bundle_gate/gui/panel/loading_battle/_texture/jdt_bd.png.meta",
+        "bundle_gate/gui/panel/loading_battle/_texture/loading_bg.jpg",
+        "bundle_gate/gui/panel/loading_battle/_texture/loading_bg.jpg.meta",
+        "bundle_gate/gui/panel/loading_battle/loading_battle.prefab",
+        "bundle_gate/gui/panel/loading_battle/loading_battle.prefab.meta",
+        "script/comps/gate/panel/LoadingViewComp.ts",
+        "script/comps/gate/panel/LoadingViewComp.ts.meta",
+        "script/uiViews/gate/panel/LoadingView.ts",
+        "script/uiViews/gate/panel/LoadingView.ts.meta"
+      ],
+      "dependencies": [],
+      "start": 4,
+      "appendScripts": [
+        {
+          "type": "gui",
+          "sourceFilePath": "script/managers/MyUiManager.ts",
+          "guiName": "loading_battle",
+          "guiPath": "bundle_gate://gui/panel/loading_battle/loading_battle"
+        },
+        {
+          "type": "comp",
+          "sourceFilePath": "script/RegisterComps.ts",
+          "compName": "LoadingViewComp",
+          "compPath": "script/comps/gate/panel/LoadingViewComp"
+        }
+      ],
+      "installedAt": "2025-11-21T12:46:32.278Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "sdk",
+      "componentName": "sdk",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "游戏sdk",
+      "author": "aixh",
+      "group": "widgets",
+      "tags": [
+        "小组件"
+      ],
+      "dependencies": [],
+      "files": [
+        "script/comps/sdk/SdkComp.ts",
+        "script/comps/sdk/SdkComp.ts.meta",
+        "script/ccComponents/sdk/DouyinSDK.ts",
+        "script/ccComponents/sdk/DouyinSDK.ts.meta",
+        "script/ccComponents/sdk/WeixinSDK.ts",
+        "script/ccComponents/sdk/WeixinSDK.ts.meta"
+      ],
+      "start": 4,
+      "appendScripts": [
+        {
+          "type": "comp",
+          "sourceFilePath": "script/RegisterComps.ts",
+          "compName": "SdkComp",
+          "compPath": "script/comps/sdk/SdkComp.ts"
+        }
+      ],
+      "installedAt": "2025-11-21T12:46:38.861Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "PlistSpriteComponent",
+      "componentName": "PlistSpriteComponent",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "通过itemNo快速获取plist中的图片",
+      "author": "aixh",
+      "group": "ccComponents",
+      "tags": [
+        "ccComponents"
+      ],
+      "dependencies": [],
+      "files": [
+        "script/ccComponents/PlistSpriteComponent/PlistSpriteComponent.ts",
+        "script/ccComponents/PlistSpriteComponent/PlistSpriteComponent.ts.meta"
+      ],
+      "start": 4,
+      "appendScripts": [],
+      "installedAt": "2025-11-21T12:48:42.203Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "help",
+      "componentName": "对话及新手指引组件",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "对话及新手指引组件",
+      "author": "xhgame",
+      "group": "widgets",
+      "tags": [
+        "小组件"
+      ],
+      "dependencies": [
+        {
+          "componentCode": "PlistSpriteComponent",
+          "group": "ccComponents"
+        }
+      ],
+      "files": [
+        "bundle_gate/widgets/help.meta",
+        "bundle_gate/widgets/help/help_chat.meta",
+        "bundle_gate/widgets/help/help_chat/_texture.meta",
+        "bundle_gate/widgets/help/help_chat/_texture/avatar_list.plist",
+        "bundle_gate/widgets/help/help_chat/_texture/avatar_list.plist.meta",
+        "bundle_gate/widgets/help/help_chat/_texture/avatar_list.png",
+        "bundle_gate/widgets/help/help_chat/_texture/avatar_list.png.meta",
+        "bundle_gate/widgets/help/help_chat/_texture/hui_input.png",
+        "bundle_gate/widgets/help/help_chat/_texture/hui_input.png.meta",
+        "bundle_gate/widgets/help/help_chat/_texture/pic_list.plist",
+        "bundle_gate/widgets/help/help_chat/_texture/pic_list.plist.meta",
+        "bundle_gate/widgets/help/help_chat/_texture/pic_list.png",
+        "bundle_gate/widgets/help/help_chat/_texture/pic_list.png.meta",
+        "bundle_gate/widgets/help/help_chat/help_chat.prefab",
+        "bundle_gate/widgets/help/help_chat/help_chat.prefab.meta",
+        "bundle_gate/widgets/help/help_guide.meta",
+        "bundle_gate/widgets/help/help_guide/_texture.meta",
+        "bundle_gate/widgets/help/help_guide/_texture/help_guide.plist",
+        "bundle_gate/widgets/help/help_guide/_texture/help_guide.plist.meta",
+        "bundle_gate/widgets/help/help_guide/_texture/help_guide.png",
+        "bundle_gate/widgets/help/help_guide/_texture/help_guide.png.meta",
+        "bundle_gate/widgets/help/help_guide/help_guide.prefab",
+        "bundle_gate/widgets/help/help_guide/help_guide.prefab.meta",
+        "script/comps/widgets.meta",
+        "script/comps/widgets/help.meta",
+        "script/comps/widgets/help/HelpChatViewComp.ts",
+        "script/comps/widgets/help/HelpChatViewComp.ts.meta",
+        "script/comps/widgets/help/HelpComp.ts",
+        "script/comps/widgets/help/HelpComp.ts.meta",
+        "script/comps/widgets/help/HelpGuideComp.ts",
+        "script/comps/widgets/help/HelpGuideComp.ts.meta",
+        "script/uiViews/widgets.meta",
+        "script/uiViews/widgets/help.meta",
+        "script/uiViews/widgets/help/HelpChatView.ts",
+        "script/uiViews/widgets/help/HelpChatView.ts.meta",
+        "script/uiViews/widgets/help/HelpGuideView.ts",
+        "script/uiViews/widgets/help/HelpGuideView.ts.meta"
+      ],
+      "start": 4,
+      "appendScripts": [
+        {
+          "type": "comp",
+          "sourceFilePath": "script/RegisterComps.ts",
+          "compName": "HelpComp",
+          "compPath": "script/comps/widgets/help/HelpComp.ts"
+        },
+        {
+          "type": "gui",
+          "sourceFilePath": "script/managers/MyUiManager.ts",
+          "guiName": "help_chat",
+          "guiPath": "bundle_gate://widgets/help/help_chat/help_chat"
+        },
+        {
+          "type": "gui",
+          "sourceFilePath": "script/managers/MyUiManager.ts",
+          "guiName": "help_guide",
+          "guiPath": "bundle_gate://widgets/help/help_guide/help_guide"
+        }
+      ],
+      "installedAt": "2025-11-21T12:48:45.118Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "aula",
+      "componentName": "3d卡通蜘蛛",
+      "componentVersion": "1.0.1",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "3d卡通蜘蛛",
+      "author": "cocos",
+      "group": "unitItems",
+      "tags": [
+        "3d单位",
+        "卡通"
+      ],
+      "files": [
+        "bundle_factory/item_views/unitItems/aula/aula.prefab.meta",
+        "bundle_factory/item_views/unitItems/aula/aula.prefab",
+        "bundle_factory/item_views/unitItems/aula/_meshes/aula.jpg.meta",
+        "bundle_factory/item_views/unitItems/aula/_meshes/aula.mtl",
+        "bundle_factory/item_views/unitItems/aula/_meshes/aula.mtl.meta",
+        "bundle_factory/item_views/unitItems/aula/_meshes/aula.jpg",
+        "bundle_factory/item_views/unitItems/aula/_meshes/aula.FBX",
+        "bundle_factory/item_views/unitItems/aula/_meshes/aula.FBX.meta",
+        "bundle_factory/item_views/unitItems/aula/_meshes.meta",
+        "bundle_factory/item_views/unitItems/aula.meta"
+      ],
+      "dependencies": [],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "enum",
+          "sourceFilePath": "script/managers/myFactory/factorys/UnitItemFactory.ts",
+          "className": "UnitItemFactory",
+          "enumName": "UnitItemEnums",
+          "enumKey": "aula",
+          "enumValue": "aula"
+        }
+      ],
+      "installedAt": "2025-11-21T12:49:00.835Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "blood",
+      "componentName": "简易的数字血条",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "简易的数字血条",
+      "author": "xhgame",
+      "group": "unitUiItem",
+      "tags": [
+        "unitUiItem"
+      ],
+      "files": [
+        "bundle_factory/item_views/unitUiItems/blood/blood.prefab.meta",
+        "bundle_factory/item_views/unitUiItems/blood/blood.prefab",
+        "bundle_factory/item_views/unitUiItems/blood.meta"
+      ],
+      "dependencies": [],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "enum",
+          "sourceFilePath": "script/managers/myFactory/factorys/UnitUiItemFactory.ts",
+          "className": "UnitUiItemFactory",
+          "enumName": "UnitUiItemEnums",
+          "enumKey": "blood",
+          "enumValue": "blood"
+        }
+      ],
+      "installedAt": "2025-11-21T12:49:04.943Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "ice",
+      "componentName": "冰冻特效",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "冰冻特效",
+      "author": "aixh",
+      "group": "effectItems",
+      "tags": [
+        "特效"
+      ],
+      "files": [
+        "bundle_factory/item_views/effectItems/ice/ice.3d.prefab.meta",
+        "bundle_factory/item_views/effectItems/ice/Tex_Line_08.mtl.meta",
+        "bundle_factory/item_views/effectItems/ice/Tex_Line_09.mtl.meta",
+        "bundle_factory/item_views/effectItems/ice/ice.prefab.meta",
+        "bundle_factory/item_views/effectItems/ice/Tex_lizi_09.png",
+        "bundle_factory/item_views/effectItems/ice/Tex_lizi_11.png.meta",
+        "bundle_factory/item_views/effectItems/ice/Tex_lizi_16.mtl",
+        "bundle_factory/item_views/effectItems/ice/ice.FBX",
+        "bundle_factory/item_views/effectItems/ice/ice.prefab",
+        "bundle_factory/item_views/effectItems/ice/Tex_lizi_09.png.meta",
+        "bundle_factory/item_views/effectItems/ice/Tex_Line_08.mtl",
+        "bundle_factory/item_views/effectItems/ice/Tex_Line_09.mtl",
+        "bundle_factory/item_views/effectItems/ice/Tex_lizi_11.png",
+        "bundle_factory/item_views/effectItems/ice/ice.3d.prefab",
+        "bundle_factory/item_views/effectItems/ice/ice.FBX.meta",
+        "bundle_factory/item_views/effectItems/ice/Tex_lizi_16.mtl.meta",
+        "bundle_factory/item_views/effectItems/ice.meta"
+      ],
+      "dependencies": [],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "enum",
+          "sourceFilePath": "script/managers/myFactory/factorys/EffectItemFactory.ts",
+          "className": "EffectItemFactory",
+          "enumName": "EffectItemEnums",
+          "enumKey": "ice",
+          "enumValue": "ice"
+        },
+        {
+          "type": "enum",
+          "sourceFilePath": "script/managers/myFactory/factorys/EffectItemFactory.ts",
+          "className": "EffectItemFactory",
+          "enumName": "EffectItemEnums",
+          "enumKey": "ice_3d",
+          "enumValue": "ice.3d"
+        }
+      ],
+      "installedAt": "2025-11-21T12:49:09.670Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "anS",
+      "componentName": "暗地",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "3d精灵射手的暗地",
+      "author": "cocos",
+      "group": "tiledItems",
+      "tags": [
+        "环境"
+      ],
+      "files": [
+        "bundle_factory/item_views/tiledItems/anS.meta",
+        "bundle_factory/item_views/tiledItems/anS/_texture.meta",
+        "bundle_factory/item_views/tiledItems/anS/_texture/anS.FBX",
+        "bundle_factory/item_views/tiledItems/anS/_texture/anS.FBX.meta",
+        "bundle_factory/item_views/tiledItems/anS/_texture/youanzong.mtl",
+        "bundle_factory/item_views/tiledItems/anS/_texture/youanzong.mtl.meta",
+        "bundle_factory/item_views/tiledItems/anS/_texture/youanzong.png",
+        "bundle_factory/item_views/tiledItems/anS/_texture/youanzong.png.meta",
+        "bundle_factory/item_views/tiledItems/anS/anS.prefab",
+        "bundle_factory/item_views/tiledItems/anS/anS.prefab.meta"
+      ],
+      "dependencies": [],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "enum",
+          "sourceFilePath": "script/managers/myFactory/factorys/TiledItemFactory.ts",
+          "className": "TiledItemFactory",
+          "enumName": "TiledItemEnums",
+          "enumKey": "anS",
+          "enumValue": "anS"
+        }
+      ],
+      "installedAt": "2025-11-21T12:49:12.760Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "toast_item",
+      "componentName": "toast_item",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "3"
+      ],
+      "images": [],
+      "description": "",
+      "author": "auto",
+      "group": "textUiItems",
+      "tags": [],
+      "dependencies": [],
+      "files": [
+        "bundle_factory/item_views/textUiItems/toast_item/toast_item_res.anim.meta",
+        "bundle_factory/item_views/textUiItems/toast_item/toast_item.prefab",
+        "bundle_factory/item_views/textUiItems/toast_item/toast_item_res.png",
+        "bundle_factory/item_views/textUiItems/toast_item/toast_item_res.png.meta",
+        "bundle_factory/item_views/textUiItems/toast_item/toast_item_res.anim",
+        "bundle_factory/item_views/textUiItems/toast_item/toast_item.prefab.meta",
+        "bundle_factory/item_views/textUiItems/toast_item.meta"
+      ],
+      "stars": 4,
+      "appendScripts": [
+        {
+          "type": "enum",
+          "sourceFilePath": "script/managers/myFactory/factorys/TextUiItemFactory.ts",
+          "className": "TextUiItemFactory",
+          "enumName": "TextUiItemEnums",
+          "enumKey": "toast_item",
+          "enumValue": "toast_item"
+        }
+      ],
+      "installedAt": "2025-11-21T12:49:16.487Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    },
+    {
+      "componentCode": "qingbg",
+      "componentName": "背景轻音乐",
+      "componentVersion": "1.0.0",
+      "cocosVersions": [
+        "2",
+        "3"
+      ],
+      "images": [],
+      "description": "背景轻音乐",
+      "author": "hd",
+      "group": "audio",
+      "tags": [
+        "轻音乐"
+      ],
+      "dependencies": [],
+      "files": [
+        "bundle_gate/audio/qingbg.mp3",
+        "bundle_gate/audio/qingbg.mp3.meta"
+      ],
+      "appendScripts": [
+        {
+          "type": "audio",
+          "sourceFilePath": "script/managers/MyAudioManager.ts",
+          "audioName": "qingbg",
+          "audioPath": "bundle_gate://audio/qingbg"
+        }
+      ],
+      "stars": 4,
+      "installedAt": "2025-11-21T12:49:28.679Z",
+      "isUpdatable": false,
+      "isInstalled": true,
+      "backedUpAt": "",
+      "isBackedUp": false
+    }
+  ]
+}

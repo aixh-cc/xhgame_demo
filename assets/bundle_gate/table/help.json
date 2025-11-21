@@ -1,0 +1,52 @@
+{
+    "1": {
+        "id": 1,
+        "eventName": "game_start_to_play",
+        "chatItems": [{
+                "content": "主人！您终于醒了！！！",
+                "leftAvatarNo": "jianling256",
+                "rightAvatarNo": "",
+                "picNo": ""
+            },
+            {
+                "content": "我是怎么了？我现在在哪？",
+                "leftAvatarNo": "",
+                "rightAvatarNo": "ren256",
+                "picNo": ""
+            }
+        ],
+        "guideItems": [{
+            "targetNodePath": "root/UICanvas/gate_index/bottom/startGame",
+            "text": "点击“开始游戏”",
+            "text_size": "200,200",
+            "text_pos_index": 5,
+            "delay_time": 0
+        }],
+        "param": {
+            "maxBattleId": 1
+        }
+    },
+    "2": {
+        "id": 2,
+        "eventName": "first_enter_battle",
+        "chatItems": [{
+                "content": "欢迎来到“农场”",
+                "leftAvatarNo": "jianling256",
+                "rightAvatarNo": "",
+                "picNo": ""
+            },
+            {
+                "content": "这里是是种菜的地方？",
+                "leftAvatarNo": "",
+                "rightAvatarNo": "ren256",
+                "picNo": ""
+            }
+        ],
+        "guideItems": [],
+        "param": {
+            "round": 0,
+            "battle_id": 1,
+            "max_battle_id": 1
+        }
+    }
+}

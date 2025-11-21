@@ -1,0 +1,25 @@
+info face="face" size=58
+common lineHeight=58 scaleW=258 scaleH=213 pages=1
+page id=0 file="sys_bai.png"
+chars count=21
+char id=43 x=28 y=171 width=29 height=28 xoffset=2 yoffset=15 xadvance=30 page=0 chnl=15
+char id=45 x=58 y=171 width=29 height=6 xoffset=2 yoffset=26 xadvance=30 page=0 chnl=15
+char id=47 x=107 y=117 width=29 height=47 xoffset=2 yoffset=6 xadvance=30 page=0 chnl=15
+char id=48 x=174 y=88 width=27 height=43 xoffset=3 yoffset=8 xadvance=30 page=0 chnl=15
+char id=49 x=231 y=43 width=15 height=42 xoffset=6 yoffset=8 xadvance=30 page=0 chnl=15
+char id=50 x=231 y=0 width=26 height=42 xoffset=3 yoffset=8 xadvance=30 page=0 chnl=15
+char id=51 x=203 y=87 width=26 height=43 xoffset=3 yoffset=8 xadvance=30 page=0 chnl=15
+char id=52 x=137 y=117 width=30 height=42 xoffset=2 yoffset=8 xadvance=30 page=0 chnl=15
+char id=53 x=203 y=44 width=27 height=42 xoffset=2 yoffset=9 xadvance=30 page=0 chnl=15
+char id=54 x=174 y=0 width=28 height=43 xoffset=3 yoffset=8 xadvance=30 page=0 chnl=15
+char id=55 x=0 y=171 width=27 height=41 xoffset=3 yoffset=9 xadvance=30 page=0 chnl=15
+char id=56 x=174 y=44 width=28 height=43 xoffset=2 yoffset=8 xadvance=30 page=0 chnl=15
+char id=57 x=203 y=0 width=27 height=43 xoffset=2 yoffset=8 xadvance=30 page=0 chnl=15
+char id=22238 x=57 y=117 width=49 height=51 xoffset=7 yoffset=4 xadvance=60 page=0 chnl=15
+char id=22987 x=57 y=58 width=56 height=57 xoffset=3 yoffset=1 xadvance=60 page=0 chnl=15
+char id=23450 x=117 y=0 width=56 height=56 xoffset=2 yoffset=0 xadvance=60 page=0 chnl=15
+char id=24320 x=0 y=117 width=56 height=53 xoffset=4 yoffset=4 xadvance=60 page=0 chnl=15
+char id=25103 x=59 y=0 width=57 height=57 xoffset=3 yoffset=1 xadvance=60 page=0 chnl=15
+char id=28216 x=0 y=0 width=58 height=57 xoffset=3 yoffset=1 xadvance=60 page=0 chnl=15
+char id=30830 x=0 y=58 width=56 height=58 xoffset=3 yoffset=0 xadvance=60 page=0 chnl=15
+char id=36820 x=117 y=57 width=56 height=56 xoffset=4 yoffset=1 xadvance=60 page=0 chnl=15

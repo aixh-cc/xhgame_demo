@@ -1,0 +1,213 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6236c8db-0c62-4401-a0cb-1d7c269f954d",
+  "files": [],
+  "subMetas": {
+    "21957": {
+      "importer": "gltf-material",
+      "uuid": "6236c8db-0c62-4401-a0cb-1d7c269f954d@21957",
+      "displayName": "",
+      "id": "21957",
+      "name": "3.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "05dd0": {
+      "importer": "gltf-mesh",
+      "uuid": "6236c8db-0c62-4401-a0cb-1d7c269f954d@05dd0",
+      "displayName": "",
+      "id": "05dd0",
+      "name": "anS02.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 944
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "56b72": {
+      "importer": "gltf-mesh",
+      "uuid": "6236c8db-0c62-4401-a0cb-1d7c269f954d@56b72",
+      "displayName": "",
+      "id": "56b72",
+      "name": "anS01.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 10171
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7ce2d": {
+      "importer": "gltf-embeded-image",
+      "uuid": "6236c8db-0c62-4401-a0cb-1d7c269f954d@7ce2d",
+      "displayName": "",
+      "id": "7ce2d",
+      "name": "3.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "b10ef": {
+      "importer": "texture",
+      "uuid": "6236c8db-0c62-4401-a0cb-1d7c269f954d@b10ef",
+      "displayName": "",
+      "id": "b10ef",
+      "name": "3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6236c8db-0c62-4401-a0cb-1d7c269f954d@7ce2d"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "458c9": {
+      "importer": "texture",
+      "uuid": "6236c8db-0c62-4401-a0cb-1d7c269f954d@458c9",
+      "displayName": "",
+      "id": "458c9",
+      "name": "youanzong.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/bundle_factory/item_views/tiledItems/anS/_texture/youanzong.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba811": {
+      "importer": "gltf-material",
+      "uuid": "6236c8db-0c62-4401-a0cb-1d7c269f954d@ba811",
+      "displayName": "",
+      "id": "ba811",
+      "name": "youanzong.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b6214": {
+      "importer": "gltf-scene",
+      "uuid": "6236c8db-0c62-4401-a0cb-1d7c269f954d@b6214",
+      "displayName": "",
+      "id": "b6214",
+      "name": "anS.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "3",
+        "uri": "6236c8db-0c62-4401-a0cb-1d7c269f954d@7ce2d"
+      },
+      {
+        "name": "youanzong",
+        "uri": "db://assets/bundle_factory/item_views/tiledItems/anS/_texture/youanzong.png"
+      }
+    ],
+    "legacyFbxImporter": true,
+    "disableMeshSplit": true,
+    "assetFinder": {
+      "meshes": [
+        "6236c8db-0c62-4401-a0cb-1d7c269f954d@05dd0",
+        "6236c8db-0c62-4401-a0cb-1d7c269f954d@56b72"
+      ],
+      "skeletons": [],
+      "textures": [
+        "6236c8db-0c62-4401-a0cb-1d7c269f954d@b10ef",
+        "6236c8db-0c62-4401-a0cb-1d7c269f954d@458c9"
+      ],
+      "materials": [
+        "6236c8db-0c62-4401-a0cb-1d7c269f954d@21957",
+        "6236c8db-0c62-4401-a0cb-1d7c269f954d@ba811"
+      ],
+      "scenes": [
+        "6236c8db-0c62-4401-a0cb-1d7c269f954d@b6214"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

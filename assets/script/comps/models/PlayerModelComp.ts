@@ -47,6 +47,7 @@ export class PlayerModelSystem extends System {
                 version: xhgame.game.meta.version
             }
             let resdata = await xhgame.net.http.post(xhgame.game.meta.account_domain + '/' + xhgame.net.enums.GetServerInfo, data)
+            console.log(resdata)
             if (resdata) {
                 resdata = resdata.res
                 let hallDomain = resdata.hallDomain.replace(/^\/+|\/+$/g, '')
@@ -74,6 +75,7 @@ export class PlayerModelSystem extends System {
                 serverNo: xhgame.game.meta.server_no,
             }
             let ret = await xhgame.net.http.post(comp.accountInfo.hallDomain + '/' + xhgame.net.enums.PlayerEnter, data)
+            console.log(ret)
             if (ret) {
                 console.log(comp.accountInfo.hallDomain + '/' + xhgame.net.enums.PlayerEnter, ret)
                 ret = ret.res

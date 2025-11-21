@@ -10,6 +10,7 @@ import { CocosUiDrive } from "./CocosUiDrive";
 import { MyAssetManager } from "../managers/MyAssetManager";
 import { CocosAudioDrive } from "./CocosAudioDrive";
 import { MyCocosFactoryConfig } from "../managers/myFactory/MyCocosFactoryConfig";
+import { MockHttp } from "../../mock/MockHttp";
 
 export class CocosGameManagers implements IManagers {
     node: Node
@@ -25,7 +26,7 @@ export class CocosGameManagers implements IManagers {
             this.setEventManager(new MyEventManager())
             this.setTableManager(this.getTables())
             this.setFactoryManager(this.getFactorys())
-            this.setNetManager(new MyNetManager<FetchHttp, Websocket>())
+            this.setNetManager(new MyNetManager<MockHttp, Websocket>())
             this.setGuiManager(new MyUiManager<CocosUiDrive, Node>())
             this.setStorageManager(new StorageManager('xhgame', sys.localStorage))
             this.setCryptoManager(new CryptoManager('s', new CryptoEmpty()))
@@ -87,12 +88,12 @@ export class CocosGameManagers implements IManagers {
     getFactoryManager(): MyFactoryManager<MyCocosFactoryConfig> {
         return this.factoryManager
     }
-    netManager: MyNetManager<FetchHttp, Websocket>
-    setNetManager(netManager: MyNetManager<FetchHttp, Websocket>) {
+    netManager: MyNetManager<MockHttp, Websocket>
+    setNetManager(netManager: MyNetManager<MockHttp, Websocket>) {
         this.netManager = netManager
         return this
     }
-    getNetManager(): MyNetManager<FetchHttp, Websocket> {
+    getNetManager(): MyNetManager<MockHttp, Websocket> {
         return this.netManager
     }
     storageManager: StorageManager

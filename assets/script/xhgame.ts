@@ -15,21 +15,21 @@ export class xhgame {
     * buntest 时,打开下面的注释 
     * ==== buntest start ====
     */
-    static getManagers() {
-        return DI.make<BunGameManagers>('IManagers') as BunGameManagers;
-    }
-    static getGame() {
-        return DI.make<BunGame>('IGame') as BunGame;
-    }
+    // static getManagers() {
+    //     return DI.make<BunGameManagers>('IManagers') as BunGameManagers;
+    // }
+    // static getGame() {
+    //     return DI.make<BunGame>('IGame') as BunGame;
+    // }
     // ==== test end ====
 
     // cocos 时,打开下面的注释  ==== cocos start ====
-    // static getManagers() {
-    //     return DI.make<CocosGameManagers>('IManagers') as CocosGameManagers;
-    // }
-    // static getGame() {
-    //     return DI.make<CocosGame>('IGame') as CocosGame;
-    // }
+    static getManagers() {
+        return DI.make<CocosGameManagers>('IManagers') as CocosGameManagers;
+    }
+    static getGame() {
+        return DI.make<CocosGame>('IGame') as CocosGame;
+    }
     // ==== cocos end ====
     /** 游戏主体 */
     static get game() {

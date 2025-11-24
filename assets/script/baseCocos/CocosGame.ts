@@ -5,7 +5,7 @@ import { Comp, DI, Entity, IGame, IGameMeta, Platform, TimeSystem } from "@aixh-
 import { Game, Component, game, director, profiler, _decorator } from "cc";
 import { CocosGameManagers } from "./CocosGameManagers";
 import { CocosDrives } from "./CocosDrives";
-import { LoadResourceToGateComp } from "../comps/enter/LoadResourceToGateComp";
+import { LoadResourceToGateComp } from "db://assets/script/comps/enter/LoadResourceToGateComp";
 import { GameEnterComp } from "../comps/enter/GameEnterComp";
 
 const { ccclass, property } = _decorator;

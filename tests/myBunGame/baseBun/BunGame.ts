@@ -81,7 +81,6 @@ export class BunGame implements IGame {
 
     }
     protected update(dt: number): void {
-        console.log('update', dt)
         TimeSystem.getInstance().updateByDrive(dt * 1000)
         Comp.notifyAllDirtyComps() // 通知所有脏数据组件更新
     }

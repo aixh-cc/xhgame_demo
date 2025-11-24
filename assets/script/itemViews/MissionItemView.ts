@@ -8,11 +8,10 @@ export interface IMissionItemViewVM {
     isFight: boolean // 相当于isSelected
     isActive: boolean
     battleId: number
-    // isSelected: boolean
 }
 
 @ccclass('MissionItemView')
-@executeInEditMode(true)
+@executeInEditMode(true)// 这个很重要，是为了我们数据调试用的
 export class MissionItemView extends CocosBaseItemView implements IMissionItemViewVM {
     toSceneNodePath: string = 'gate_group_mission_dialog/items'
     /** 几星 */

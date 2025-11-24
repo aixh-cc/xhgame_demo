@@ -2,6 +2,11 @@
 
 一个基于 Cocos Creator 3.8.7 与 `@aixh-cc/xhgame_ec_framework` 的开源游戏开发框架示例工程，内置 EC/DI、事件总线、资源与 UI 管理、音频、网络、表数据、工厂、时间系统等能力，并提供微信/抖音等平台适配。
 
+## 开发文档
+
+http://xhgame.aixh.cc/
+
+
 ## 项目简介
 - 引擎：Cocos Creator 3.8.7
 - 语言：TypeScript

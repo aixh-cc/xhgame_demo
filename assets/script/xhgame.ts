@@ -1,7 +1,7 @@
 
 import { DI, TimeSystem } from "@aixh-cc/xhgame_ec_framework";
-import { CocosGameManagers } from "./baseCocos/CocosGameManagers";
-import { CocosGame } from "./baseCocos/CocosGame";
+// import { CocosGameManagers } from "./baseCocos/CocosGameManagers";
+// import { CocosGame } from "./baseCocos/CocosGame";
 import { BunGameManagers } from "../../tests/myBunGame/baseBun/BunGameManagers";
 import { BunGame } from "../../tests/myBunGame/baseBun/BunGame";
 
@@ -15,21 +15,21 @@ export class xhgame {
     * buntest 时,打开下面的注释 
     * ==== buntest start ====
     */
-    // static getManagers() {
-    //     return DI.make<BunGameManagers>('IManagers') as BunGameManagers;
-    // }
-    // static getGame() {
-    //     return DI.make<BunGame>('IGame') as BunGame;
-    // }
+    static getManagers() {
+        return DI.make<BunGameManagers>('IManagers') as BunGameManagers;
+    }
+    static getGame() {
+        return DI.make<BunGame>('IGame') as BunGame;
+    }
     // ==== test end ====
 
     // cocos 时,打开下面的注释  ==== cocos start ====
-    static getManagers() {
-        return DI.make<CocosGameManagers>('IManagers') as CocosGameManagers;
-    }
-    static getGame() {
-        return DI.make<CocosGame>('IGame') as CocosGame;
-    }
+    // static getManagers() {
+    //     return DI.make<CocosGameManagers>('IManagers') as CocosGameManagers;
+    // }
+    // static getGame() {
+    //     return DI.make<CocosGame>('IGame') as CocosGame;
+    // }
     // ==== cocos end ====
     /** 游戏主体 */
     static get game() {

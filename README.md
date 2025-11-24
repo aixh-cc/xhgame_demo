@@ -64,12 +64,13 @@ tests/myBunGame/my_tests/mission.test.ts
 
  - 1、需要你本地有bunjs环境
 
+
  - 2、与ai进行交互，描述你的需求
 
 > 比如：
 根据当前框架的架构，设计一个弹窗页面，页面内容xxx,点击item时xxx。
  
- - 3、让ai写一个xxx.test.ts的测试用例，让他用 bun xxx.test.ts 去执行，他设计的程序（bunGame里面会以文本的形式返回当前的页面变化）
+ - 3、让ai写一个xxx.test.ts的测试用例，让他用 bun xxx.test.ts 去执行他设计的程序。bunGame的适配会以文本的形式返回当前的页面变化，
 
  
 

@@ -62,8 +62,9 @@ tests/myBunGame/my_tests/mission.test.ts
 
 具体步骤：
 
- - 1、需要你本地有bunjs环境
+ - 1、安装依赖 npm i
 
+ - 2、需要你本地有bunjs环境
 
  - 2、与ai进行交互，描述你的需求
 

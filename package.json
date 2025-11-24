@@ -8,6 +8,8 @@
     "@aixh-cc/xhgame_ec_framework": "^1.2.0"
   },
   "devDependencies": {
-    "node-localstorage": "^3.0.5"
+    "node-localstorage": "^3.0.5",
+    "poku": "^3.0.1",
+    "typescript": "^5.9.3"
   }
 }

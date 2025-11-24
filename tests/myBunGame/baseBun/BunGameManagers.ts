@@ -10,7 +10,7 @@ import { MyAssetManager } from "db://assets/script/managers/MyAssetManager";
 import { BunAudioDrive } from "./BunAudioDrive";
 import { MyBunFactoryConfig } from "../managers/myFactory/MyBunFactoryConfig";
 import { BunNode } from "./BunGame";
-import { TestAssetDrive } from "../../myTestGame/test/drive/TestAssetDrive";
+import { BunAssetDrive } from "./BunAssetDrive";
 
 export class BunGameManagers implements IManagers {
     node: Node
@@ -32,7 +32,7 @@ export class BunGameManagers implements IManagers {
             this.setCryptoManager(new CryptoManager('s', new CryptoEmpty()))
             this.setAudioManager(new MyAudioManager())
             //
-            this.setAssetManager(new MyAssetManager<TestAssetDrive>())
+            this.setAssetManager(new MyAssetManager<BunAssetDrive>())
         } catch (err) {
             console.error('BunGameManagers build error', err)
         }
@@ -109,11 +109,11 @@ export class BunGameManagers implements IManagers {
     }
 
     //
-    private _assetManager: MyAssetManager<TestAssetDrive>
-    setAssetManager(assetManager: MyAssetManager<TestAssetDrive>) {
+    private _assetManager: MyAssetManager<BunAssetDrive>
+    setAssetManager(assetManager: MyAssetManager<BunAssetDrive>) {
         this._assetManager = assetManager
     }
-    getAssetManager(): MyAssetManager<TestAssetDrive> {
+    getAssetManager(): MyAssetManager<BunAssetDrive> {
         return this._assetManager
     }
 }

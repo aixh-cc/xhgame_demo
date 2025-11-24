@@ -53,7 +53,29 @@ package.json                   # 依赖与 Creator 版本记录
 - 全局门面：`assets/script/xhgame.ts` 暴露 `game/event/gui/audio/asset/net/table/storage/timer`
 - 帧驱动：`update(dt)` 调用框架时间系统与组件脏更新
 
-## 核心模块
+## 核心及特色,ai开发cocos
+
+使用bunjs驱动ai终端模拟开发
+
+具体样例查看
+tests/myBunGame/my_tests/mission.test.ts
+
+具体步骤：
+
+ - 1、需要你本地有bunjs环境
+
+ - 2、与ai进行交互，描述你的需求
+
+> 比如：
+根据当前框架的架构，设计一个弹窗页面，页面内容xxx,点击item时xxx。
+ 
+ - 3、让ai写一个xxx.test.ts的测试用例，让他用 bun xxx.test.ts 去执行，他设计的程序（bunGame里面会以文本的形式返回当前的页面变化）
+
+ 
+
+
+
+## 模块介绍
 - EC/实体系统：`GameEntity.ts` + `RegisterComps.ts` 管理组件的注册、挂载/卸载与安全获取
 - 事件总线：`xhgame.event.emit/on`，系统与业务事件统一派发（如 `GAME_EVENT_SHOW/HIDE`、`battle_game_pause/resume`）
 - 资源管理：`MyAssetManager` 基于 `cc.assetManager`；资源按 bundle 分域组织

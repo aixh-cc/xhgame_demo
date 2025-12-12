@@ -1,0 +1,59 @@
+{
+  "componentCode": "ice",
+  "componentName": "冰冻特效",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "冰冻特效",
+  "author": "aixh",
+  "group": "effectItems",
+  "tags": [
+    "特效"
+  ],
+  "files": [
+    "bundle_factory/item_views/effectItems/ice/ice.3d.prefab.meta",
+    "bundle_factory/item_views/effectItems/ice/Tex_Line_08.mtl.meta",
+    "bundle_factory/item_views/effectItems/ice/Tex_Line_09.mtl.meta",
+    "bundle_factory/item_views/effectItems/ice/ice.prefab.meta",
+    "bundle_factory/item_views/effectItems/ice/Tex_lizi_09.png",
+    "bundle_factory/item_views/effectItems/ice/Tex_lizi_11.png.meta",
+    "bundle_factory/item_views/effectItems/ice/Tex_lizi_16.mtl",
+    "bundle_factory/item_views/effectItems/ice/ice.FBX",
+    "bundle_factory/item_views/effectItems/ice/ice.prefab",
+    "bundle_factory/item_views/effectItems/ice/Tex_lizi_09.png.meta",
+    "bundle_factory/item_views/effectItems/ice/Tex_Line_08.mtl",
+    "bundle_factory/item_views/effectItems/ice/Tex_Line_09.mtl",
+    "bundle_factory/item_views/effectItems/ice/Tex_lizi_11.png",
+    "bundle_factory/item_views/effectItems/ice/ice.3d.prefab",
+    "bundle_factory/item_views/effectItems/ice/ice.FBX.meta",
+    "bundle_factory/item_views/effectItems/ice/Tex_lizi_16.mtl.meta",
+    "bundle_factory/item_views/effectItems/ice.meta"
+  ],
+  "dependencies": [],
+  "stars": 4,
+  "appendScripts": [
+    {
+      "type": "enum",
+      "sourceFilePath": "script/managers/myFactory/factorys/EffectItemFactory.ts",
+      "className": "EffectItemFactory",
+      "enumName": "EffectItemEnums",
+      "enumKey": "ice",
+      "enumValue": "ice"
+    },
+    {
+      "type": "enum",
+      "sourceFilePath": "script/managers/myFactory/factorys/EffectItemFactory.ts",
+      "className": "EffectItemFactory",
+      "enumName": "EffectItemEnums",
+      "enumKey": "ice_3d",
+      "enumValue": "ice.3d"
+    }
+  ],
+  "installedAt": "2025-11-21T12:15:50.191Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:43:57.586Z",
+  "isBackedUp": false
+}

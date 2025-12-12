@@ -1,0 +1,42 @@
+{
+  "componentCode": "UiItemFactory",
+  "componentName": "ui模板工厂",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "ui项模板",
+  "author": "hd",
+  "group": "itemFactorys",
+  "tags": [
+    "UiItemFactory"
+  ],
+  "dependencies": [
+    "script/managers/myFactory/MyCocosFactoryConfig.ts"
+  ],
+  "files": [
+    "bundle_factory/item_templates/cocosUiItem.prefab",
+    "bundle_factory/item_templates/cocosUiItem.prefab.meta",
+    "script/managers/myFactory/factorys/UiItemFactory.ts",
+    "script/managers/myFactory/factorys/UiItemFactory.ts.meta",
+    "script/managers/myFactory/itemTemplates/CocosUiItem.ts",
+    "script/managers/myFactory/itemTemplates/CocosUiItem.ts.meta"
+  ],
+  "stars": 4,
+  "appendScripts": [
+    {
+      "type": "factory",
+      "sourceFilePath": "script/managers/myFactory/MyCocosFactoryConfig.ts",
+      "factoryType": "uiItem",
+      "factoryClassName": "UiItemFactory",
+      "itemClassName": "CocosUiItem",
+      "driveClassName": "CocosUiItemProduceDrive"
+    }
+  ],
+  "installedAt": "2025-11-21T12:14:36.381Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:45:26.892Z",
+  "isBackedUp": false
+}

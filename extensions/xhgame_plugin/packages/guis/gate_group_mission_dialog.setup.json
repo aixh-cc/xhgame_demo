@@ -1,0 +1,66 @@
+{
+  "componentCode": "gate_group_mission_dialog",
+  "componentName": "关卡选择弹窗",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "关卡选择弹窗",
+  "author": "hd",
+  "group": "guis",
+  "tags": [],
+  "dependencies": [
+    {
+      "componentCode": "mission_item",
+      "group": "uiItems"
+    },
+    {
+      "componentCode": "UiItemFactory",
+      "group": "itemFactorys"
+    }
+  ],
+  "files": [
+    "script/uiViews/gate/dialog/GateGroupMissionView.ts",
+    "script/uiViews/gate/dialog/GateGroupMissionView.ts.meta",
+    "script/comps/gate/dialog/GateGroupMissionViewComp.ts",
+    "script/comps/gate/dialog/GateGroupMissionViewComp.ts.meta",
+    "script/comps/models/PlayerMissionModelComp.ts",
+    "script/comps/models/PlayerMissionModelComp.ts.meta",
+    "bundle_gate/fonts/sys_bai.fnt",
+    "bundle_gate/fonts/sys_bai.fnt.meta",
+    "bundle_gate/fonts/sys_bai.png",
+    "bundle_gate/fonts/sys_bai.png.meta",
+    "bundle_gate/gui/dialog/gate_group_mission_dialog/_texture.meta",
+    "bundle_gate/gui/dialog/gate_group_mission_dialog/_texture/nothinks.png",
+    "bundle_gate/gui/dialog/gate_group_mission_dialog/_texture/nothinks.png.meta",
+    "bundle_gate/gui/dialog/gate_group_mission_dialog/gate_group_mission_dialog.prefab",
+    "bundle_gate/gui/dialog/gate_group_mission_dialog/gate_group_mission_dialog.prefab.meta"
+  ],
+  "start": 4,
+  "appendScripts": [
+    {
+      "type": "gui",
+      "sourceFilePath": "script/managers/MyUiManager.ts",
+      "guiName": "gate_group_mission_dialog",
+      "guiPath": "bundle_gate://gui/dialog/gate_group_mission_dialog/gate_group_mission_dialog"
+    },
+    {
+      "type": "comp",
+      "sourceFilePath": "script/RegisterComps.ts",
+      "compName": "PlayerMissionModelComp",
+      "compPath": "script/comps/models/PlayerMissionModelComp"
+    },
+    {
+      "type": "comp",
+      "sourceFilePath": "script/RegisterComps.ts",
+      "compName": "GateGroupMissionViewComp",
+      "compPath": "script/comps/gate/dialog/GateGroupMissionViewComp"
+    }
+  ],
+  "installedAt": "2025-11-21T12:15:09.151Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:44:41.430Z",
+  "isBackedUp": false
+}

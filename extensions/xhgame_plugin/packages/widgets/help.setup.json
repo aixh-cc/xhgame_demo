@@ -1,0 +1,81 @@
+{
+  "componentCode": "help",
+  "componentName": "对话及新手指引组件",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "对话及新手指引组件",
+  "author": "xhgame",
+  "group": "widgets",
+  "tags": [
+    "小组件"
+  ],
+  "dependencies": [],
+  "files": [
+    "bundle_gate/widgets/help.meta",
+    "bundle_gate/widgets/help/help_chat.meta",
+    "bundle_gate/widgets/help/help_chat/_texture.meta",
+    "bundle_gate/widgets/help/help_chat/_texture/avatar_list.plist",
+    "bundle_gate/widgets/help/help_chat/_texture/avatar_list.plist.meta",
+    "bundle_gate/widgets/help/help_chat/_texture/avatar_list.png",
+    "bundle_gate/widgets/help/help_chat/_texture/avatar_list.png.meta",
+    "bundle_gate/widgets/help/help_chat/_texture/hui_input.png",
+    "bundle_gate/widgets/help/help_chat/_texture/hui_input.png.meta",
+    "bundle_gate/widgets/help/help_chat/_texture/pic_list.plist",
+    "bundle_gate/widgets/help/help_chat/_texture/pic_list.plist.meta",
+    "bundle_gate/widgets/help/help_chat/_texture/pic_list.png",
+    "bundle_gate/widgets/help/help_chat/_texture/pic_list.png.meta",
+    "bundle_gate/widgets/help/help_chat/help_chat.prefab",
+    "bundle_gate/widgets/help/help_chat/help_chat.prefab.meta",
+    "bundle_gate/widgets/help/help_guide.meta",
+    "bundle_gate/widgets/help/help_guide/_texture.meta",
+    "bundle_gate/widgets/help/help_guide/_texture/help_guide.plist",
+    "bundle_gate/widgets/help/help_guide/_texture/help_guide.plist.meta",
+    "bundle_gate/widgets/help/help_guide/_texture/help_guide.png",
+    "bundle_gate/widgets/help/help_guide/_texture/help_guide.png.meta",
+    "bundle_gate/widgets/help/help_guide/help_guide.prefab",
+    "bundle_gate/widgets/help/help_guide/help_guide.prefab.meta",
+    "script/comps/widgets.meta",
+    "script/comps/widgets/help.meta",
+    "script/comps/widgets/help/HelpChatViewComp.ts",
+    "script/comps/widgets/help/HelpChatViewComp.ts.meta",
+    "script/comps/widgets/help/HelpComp.ts",
+    "script/comps/widgets/help/HelpComp.ts.meta",
+    "script/comps/widgets/help/HelpGuideComp.ts",
+    "script/comps/widgets/help/HelpGuideComp.ts.meta",
+    "script/uiViews/widgets.meta",
+    "script/uiViews/widgets/help.meta",
+    "script/uiViews/widgets/help/HelpChatView.ts",
+    "script/uiViews/widgets/help/HelpChatView.ts.meta",
+    "script/uiViews/widgets/help/HelpGuideView.ts",
+    "script/uiViews/widgets/help/HelpGuideView.ts.meta"
+  ],
+  "start": 4,
+  "appendScripts": [
+    {
+      "type": "comp",
+      "sourceFilePath": "script/RegisterComps.ts",
+      "compName": "HelpComp",
+      "compPath": "script/comps/widgets/help/HelpComp.ts"
+    },
+    {
+      "type": "gui",
+      "sourceFilePath": "script/managers/MyUiManager.ts",
+      "guiName": "help_chat",
+      "guiPath": "bundle_gate://widgets/help/help_chat/help_chat"
+    },
+    {
+      "type": "gui",
+      "sourceFilePath": "script/managers/MyUiManager.ts",
+      "guiName": "help_guide",
+      "guiPath": "bundle_gate://widgets/help/help_guide/help_guide"
+    }
+  ],
+  "installedAt": "2025-11-21T12:15:19.756Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:44:26.582Z",
+  "isBackedUp": false
+}

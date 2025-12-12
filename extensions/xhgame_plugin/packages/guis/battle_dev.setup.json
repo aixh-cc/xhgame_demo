@@ -1,0 +1,44 @@
+{
+  "componentCode": "battle_dev",
+  "componentName": "battle的调试页",
+  "componentVersion": "1.0.1",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "battle的调试页",
+  "author": "xhgame",
+  "group": "guis",
+  "tags": [
+    "调试页"
+  ],
+  "files": [
+    "bundle_battle/gui/panel/battle_dev/battle_dev.prefab",
+    "bundle_battle/gui/panel/battle_dev/battle_dev.prefab.meta",
+    "script/comps/battle/panel/BattleDevViewComp.ts",
+    "script/comps/battle/panel/BattleDevViewComp.ts.meta",
+    "script/uiViews/battle/panel/BattleDevView.ts",
+    "script/uiViews/battle/panel/BattleDevView.ts.meta"
+  ],
+  "dependencies": [],
+  "start": 4,
+  "appendScripts": [
+    {
+      "type": "gui",
+      "sourceFilePath": "script/managers/MyUiManager.ts",
+      "guiName": "battle_dev",
+      "guiPath": "bundle_battle://gui/panel/battle_dev/battle_dev"
+    },
+    {
+      "type": "comp",
+      "sourceFilePath": "script/RegisterComps.ts",
+      "compName": "BattleDevViewComp",
+      "compPath": "script/comps/battle/panel/BattleDevViewComp"
+    }
+  ],
+  "installedAt": "2025-11-21T12:15:00.386Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:44:34.270Z",
+  "isBackedUp": false
+}

@@ -1,0 +1,39 @@
+{
+  "componentCode": "HelpTable",
+  "componentName": "帮助数据表单",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "帮助数据表单",
+  "author": "hd",
+  "group": "tables",
+  "tags": [
+    "table"
+  ],
+  "dependencies": [
+    "script/managers/myTable/MyTableConfig.ts"
+  ],
+  "files": [
+    "bundle_gate/table/help.json",
+    "bundle_gate/table/help.json.meta",
+    "script/managers/myTable/tables/HelpTable.ts",
+    "script/managers/myTable/tables/HelpTable.ts.meta"
+  ],
+  "stars": 4,
+  "appendScripts": [
+    {
+      "type": "table",
+      "sourceFilePath": "script/managers/myTable/MyTableConfig.ts",
+      "tableType": "help",
+      "itemIName": "IHelpTableItem",
+      "tableClassName": "HelpTable"
+    }
+  ],
+  "installedAt": "2025-11-21T12:14:44.788Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:45:07.504Z",
+  "isBackedUp": false
+}

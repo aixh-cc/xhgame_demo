@@ -1,0 +1,39 @@
+{
+  "componentCode": "BattleTable",
+  "componentName": "战斗数据表单",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "战斗数据表单",
+  "author": "hd",
+  "group": "tables",
+  "tags": [
+    "table"
+  ],
+  "dependencies": [
+    "script/managers/myTable/MyTableConfig.ts"
+  ],
+  "files": [
+    "bundle_gate/table/battle.json",
+    "bundle_gate/table/battle.json.meta",
+    "script/managers/myTable/tables/BattleTable.ts",
+    "script/managers/myTable/tables/BattleTable.ts.meta"
+  ],
+  "stars": 4,
+  "appendScripts": [
+    {
+      "type": "table",
+      "sourceFilePath": "script/managers/myTable/MyTableConfig.ts",
+      "tableType": "battle",
+      "itemIName": "IBattleTableItem",
+      "tableClassName": "BattleTable"
+    }
+  ],
+  "installedAt": "2025-11-21T12:14:43.265Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:45:05.259Z",
+  "isBackedUp": false
+}

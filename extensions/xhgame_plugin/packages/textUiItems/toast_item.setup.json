@@ -1,0 +1,39 @@
+{
+  "componentCode": "toast_item",
+  "componentName": "toast_item",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "",
+  "author": "auto",
+  "group": "textUiItems",
+  "tags": [],
+  "dependencies": [],
+  "files": [
+    "bundle_factory/item_views/textUiItems/toast_item/toast_item_res.anim.meta",
+    "bundle_factory/item_views/textUiItems/toast_item/toast_item.prefab",
+    "bundle_factory/item_views/textUiItems/toast_item/toast_item_res.png",
+    "bundle_factory/item_views/textUiItems/toast_item/toast_item_res.png.meta",
+    "bundle_factory/item_views/textUiItems/toast_item/toast_item_res.anim",
+    "bundle_factory/item_views/textUiItems/toast_item/toast_item.prefab.meta",
+    "bundle_factory/item_views/textUiItems/toast_item.meta"
+  ],
+  "stars": 4,
+  "appendScripts": [
+    {
+      "type": "enum",
+      "sourceFilePath": "script/managers/myFactory/factorys/TextUiItemFactory.ts",
+      "className": "TextUiItemFactory",
+      "enumName": "TextUiItemEnums",
+      "enumKey": "toast_item",
+      "enumValue": "toast_item"
+    }
+  ],
+  "installedAt": "2025-11-21T12:16:06.251Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:43:30.434Z",
+  "isBackedUp": false
+}

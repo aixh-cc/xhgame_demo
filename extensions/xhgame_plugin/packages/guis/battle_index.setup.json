@@ -1,0 +1,58 @@
+{
+  "componentCode": "battle_index",
+  "componentName": "battle页",
+  "componentVersion": "1.0.1",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "battle页",
+  "author": "xhgame",
+  "group": "guis",
+  "tags": [
+    "battle页"
+  ],
+  "files": [
+    "bundle_battle/gui/panel/battle_index.meta",
+    "bundle_battle/gui/panel/battle_index/_texture.meta",
+    "bundle_battle/gui/panel/battle_index/_texture/dijiguan.png",
+    "bundle_battle/gui/panel/battle_index/_texture/dijiguan.png.meta",
+    "bundle_battle/gui/panel/battle_index/_texture/fightBtnStop.png",
+    "bundle_battle/gui/panel/battle_index/_texture/fightBtnStop.png.meta",
+    "bundle_battle/gui/panel/battle_index/_texture/jian_magic_value.png",
+    "bundle_battle/gui/panel/battle_index/_texture/jian_magic_value.png.meta",
+    "bundle_battle/gui/panel/battle_index/_texture/topbar.png",
+    "bundle_battle/gui/panel/battle_index/_texture/topbar.png.meta",
+    "bundle_battle/gui/panel/battle_index/_texture/xing2.png",
+    "bundle_battle/gui/panel/battle_index/_texture/xing2.png.meta",
+    "bundle_battle/gui/panel/battle_index/_texture/xing3.png",
+    "bundle_battle/gui/panel/battle_index/_texture/xing3.png.meta",
+    "bundle_battle/gui/panel/battle_index/battle_index.prefab",
+    "bundle_battle/gui/panel/battle_index/battle_index.prefab.meta",
+    "script/comps/battle/panel/BattleViewComp.ts",
+    "script/comps/battle/panel/BattleViewComp.ts.meta",
+    "script/uiViews/battle/panel/BattleView.ts",
+    "script/uiViews/battle/panel/BattleView.ts.meta"
+  ],
+  "dependencies": [],
+  "start": 4,
+  "appendScripts": [
+    {
+      "type": "gui",
+      "sourceFilePath": "script/managers/MyUiManager.ts",
+      "guiName": "battle_index",
+      "guiPath": "bundle_battle://gui/panel/battle_index/battle_index"
+    },
+    {
+      "type": "comp",
+      "sourceFilePath": "script/RegisterComps.ts",
+      "compName": "BattleViewComp",
+      "compPath": "script/comps/battle/panel/BattleViewComp"
+    }
+  ],
+  "installedAt": "2025-11-21T12:15:02.222Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:44:38.583Z",
+  "isBackedUp": false
+}

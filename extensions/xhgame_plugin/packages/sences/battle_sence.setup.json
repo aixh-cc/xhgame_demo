@@ -1,0 +1,61 @@
+{
+  "componentCode": "battle_sence",
+  "componentName": "battle场景",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "battle场景",
+  "author": "xhgame",
+  "group": "sences",
+  "tags": [
+    "battle场景"
+  ],
+  "files": [
+    "bundle_battle.meta",
+    "bundle_battle/audio.meta",
+    "bundle_battle/audio/battle_bg_audio.mp3",
+    "bundle_battle/audio/battle_bg_audio.mp3.meta",
+    "script/comps/battle/BattleSenceComp.ts",
+    "script/comps/battle/BattleSenceComp.ts.meta",
+    "script/comps/battle/BattleTiledComp.ts",
+    "script/comps/battle/BattleTiledComp.ts.meta"
+  ],
+  "dependencies": [
+    {
+      "componentCode": "TiledItemFactory",
+      "group": "itemFactorys"
+    },
+    {
+      "componentCode": "UiItemFactory",
+      "group": "itemFactorys"
+    }
+  ],
+  "start": 4,
+  "appendScripts": [
+    {
+      "type": "comp",
+      "sourceFilePath": "script/RegisterComps.ts",
+      "compName": "BattleSenceComp",
+      "compPath": "script/comps/battle/BattleSenceComp"
+    },
+    {
+      "type": "comp",
+      "sourceFilePath": "script/RegisterComps.ts",
+      "compName": "BattleTiledComp",
+      "compPath": "script/comps/battle/BattleTiledComp"
+    },
+    {
+      "type": "audio",
+      "sourceFilePath": "script/managers/MyAudioManager.ts",
+      "audioName": "battle_bg_audio",
+      "audioPath": "bundle_battle://audio/battle_bg_audio"
+    }
+  ],
+  "installedAt": "2025-11-21T12:14:52.498Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:44:57.213Z",
+  "isBackedUp": false
+}

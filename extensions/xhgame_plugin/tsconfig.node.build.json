@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": [
+      "ES2020"
+    ],
+    "outDir": "./dist_for_node",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": [
+      "@cocos/creator-types/editor"
+    ],
+    "sourceMap": true
+  },
+  "include": [
+    "src/nodejs/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "dist_fot_node/web"
+  ]
+}

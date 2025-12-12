@@ -1,0 +1,38 @@
+{
+  "componentCode": "sdk",
+  "componentName": "sdk",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "游戏sdk",
+  "author": "aixh",
+  "group": "widgets",
+  "tags": [
+    "小组件"
+  ],
+  "dependencies": [],
+  "files": [
+    "script/comps/sdk/SdkComp.ts",
+    "script/comps/sdk/SdkComp.ts.meta",
+    "script/ccComponents/sdk/DouyinSDK.ts",
+    "script/ccComponents/sdk/DouyinSDK.ts.meta",
+    "script/ccComponents/sdk/WeixinSDK.ts",
+    "script/ccComponents/sdk/WeixinSDK.ts.meta"
+  ],
+  "start": 4,
+  "appendScripts": [
+    {
+      "type": "comp",
+      "sourceFilePath": "script/RegisterComps.ts",
+      "compName": "SdkComp",
+      "compPath": "script/comps/sdk/SdkComp.ts"
+    }
+  ],
+  "installedAt": "2025-11-21T12:15:21.150Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:44:30.324Z",
+  "isBackedUp": false
+}

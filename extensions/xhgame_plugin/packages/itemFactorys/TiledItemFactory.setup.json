@@ -1,0 +1,42 @@
+{
+  "componentCode": "TiledItemFactory",
+  "componentName": "地板模板工厂",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "地板项模板",
+  "author": "hd",
+  "group": "itemFactorys",
+  "tags": [
+    "TiledItemFactory"
+  ],
+  "dependencies": [
+    "script/managers/myFactory/MyCocosFactoryConfig.ts"
+  ],
+  "files": [
+    "bundle_factory/item_templates/cocosTiledItem.prefab",
+    "bundle_factory/item_templates/cocosTiledItem.prefab.meta",
+    "script/managers/myFactory/factorys/TiledItemFactory.ts",
+    "script/managers/myFactory/factorys/TiledItemFactory.ts.meta",
+    "script/managers/myFactory/itemTemplates/CocosTiledItem.ts",
+    "script/managers/myFactory/itemTemplates/CocosTiledItem.ts.meta"
+  ],
+  "stars": 4,
+  "appendScripts": [
+    {
+      "type": "factory",
+      "sourceFilePath": "script/managers/myFactory/MyCocosFactoryConfig.ts",
+      "factoryType": "tiledItem",
+      "factoryClassName": "TiledItemFactory",
+      "itemClassName": "CocosTiledItem",
+      "driveClassName": "CocosTiledItemProduceDrive"
+    }
+  ],
+  "installedAt": "2025-11-21T12:14:35.078Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:45:24.166Z",
+  "isBackedUp": false
+}

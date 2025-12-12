@@ -1,0 +1,80 @@
+{
+  "componentCode": "gate_index",
+  "componentName": "gate页",
+  "componentVersion": "1.0.1",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "gate页",
+  "author": "xhgame",
+  "group": "guis",
+  "tags": [
+    "gate页"
+  ],
+  "files": [
+    "bundle_gate/fonts.meta",
+    "bundle_gate/fonts/honglei_bai.fnt",
+    "bundle_gate/fonts/honglei_bai.fnt.meta",
+    "bundle_gate/fonts/honglei_bai.png",
+    "bundle_gate/fonts/honglei_bai.png.meta",
+    "bundle_gate/fonts/zhangjieming_bai.fnt",
+    "bundle_gate/fonts/zhangjieming_bai.fnt.meta",
+    "bundle_gate/fonts/zhangjieming_bai.png",
+    "bundle_gate/fonts/zhangjieming_bai.png.meta",
+    "bundle_gate/gui/panel/_texture.meta",
+    "bundle_gate/gui/panel/gate_index/_texture/battle_group_bg.jpg",
+    "bundle_gate/gui/panel/gate_index/_texture/battle_group_bg.jpg.meta",
+    "bundle_gate/gui/panel/gate_index/_texture/common.plist",
+    "bundle_gate/gui/panel/gate_index/_texture/common.plist.meta",
+    "bundle_gate/gui/panel/gate_index/_texture/common.png",
+    "bundle_gate/gui/panel/gate_index/_texture/common.png.meta",
+    "bundle_gate/gui/panel/gate_index/_texture/commonBtn01.png",
+    "bundle_gate/gui/panel/gate_index/_texture/commonBtn01.png.meta",
+    "bundle_gate/gui/panel/gate_index/_texture/gate_view_plist.plist",
+    "bundle_gate/gui/panel/gate_index/_texture/gate_view_plist.plist.meta",
+    "bundle_gate/gui/panel/gate_index/_texture/gate_view_plist.png",
+    "bundle_gate/gui/panel/gate_index/_texture/gate_view_plist.png.meta",
+    "bundle_gate/gui/panel/gate_index/_texture/top_xx_bg.png",
+    "bundle_gate/gui/panel/gate_index/_texture/top_xx_bg.png.meta",
+    "bundle_gate/gui/panel/gate_index/gate_index.prefab",
+    "bundle_gate/gui/panel/gate_index/gate_index.prefab.meta",
+    "bundle_gate/icon_plist/goods_list.plist",
+    "bundle_gate/icon_plist/goods_list.plist.meta",
+    "bundle_gate/icon_plist/goods_list.png",
+    "bundle_gate/icon_plist/goods_list.png.meta",
+    "bundle_gate/audio/gate_bg_audio.mp3",
+    "bundle_gate/audio/gate_bg_audio.mp3.meta",
+    "script/comps/gate/panel/GateViewComp.ts",
+    "script/comps/gate/panel/GateViewComp.ts.meta",
+    "script/uiViews/gate/panel/GateView.ts",
+    "script/uiViews/gate/panel/GateView.ts.meta"
+  ],
+  "dependencies": [],
+  "start": 4,
+  "appendScripts": [
+    {
+      "type": "gui",
+      "sourceFilePath": "script/managers/MyUiManager.ts",
+      "guiName": "gate_index",
+      "guiPath": "bundle_gate://gui/panel/gate_index/gate_index"
+    },
+    {
+      "type": "comp",
+      "sourceFilePath": "script/RegisterComps.ts",
+      "compName": "GateViewComp",
+      "compPath": "script/comps/gate/panel/GateViewComp"
+    },
+    {
+      "type": "audio",
+      "sourceFilePath": "script/managers/MyAudioManager.ts",
+      "audioName": "gate_bg_audio",
+      "audioPath": "bundle_gate://audio/gate_bg_audio"
+    }
+  ],
+  "installedAt": "2025-11-21T12:15:11.042Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:44:44.405Z",
+  "isBackedUp": false
+}

@@ -1,0 +1,42 @@
+{
+  "componentCode": "TextUiItemFactory",
+  "componentName": "文本ui模板工厂",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "文本ui项模板",
+  "author": "hd",
+  "group": "itemFactorys",
+  "tags": [
+    "TextUiItemFactory"
+  ],
+  "dependencies": [
+    "script/managers/myFactory/MyCocosFactoryConfig.ts"
+  ],
+  "files": [
+    "bundle_factory/item_templates/cocosTextUiItem.prefab",
+    "bundle_factory/item_templates/cocosTextUiItem.prefab.meta",
+    "script/managers/myFactory/factorys/TextUiItemFactory.ts",
+    "script/managers/myFactory/factorys/TextUiItemFactory.ts.meta",
+    "script/managers/myFactory/itemTemplates/CocosTextUiItem.ts",
+    "script/managers/myFactory/itemTemplates/CocosTextUiItem.ts.meta"
+  ],
+  "stars": 4,
+  "appendScripts": [
+    {
+      "type": "factory",
+      "sourceFilePath": "script/managers/myFactory/MyCocosFactoryConfig.ts",
+      "factoryType": "textUiItem",
+      "factoryClassName": "TextUiItemFactory",
+      "itemClassName": "CocosTextUiItem",
+      "driveClassName": "CocosTextUiItemProduceDrive"
+    }
+  ],
+  "installedAt": "2025-11-21T12:14:33.513Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:45:21.525Z",
+  "isBackedUp": false
+}

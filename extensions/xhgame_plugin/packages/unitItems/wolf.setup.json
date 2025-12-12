@@ -1,0 +1,73 @@
+{
+  "componentCode": "wolf",
+  "componentName": "3d狼",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "3d狼",
+  "author": "xhgame",
+  "group": "unitItems",
+  "tags": [
+    "3d单位",
+    "卡通"
+  ],
+  "files": [
+    "bundle_factory/item_views/unitItems/wolf.meta",
+    "bundle_factory/item_views/unitItems/wolf/_texture.meta",
+    "bundle_factory/item_views/unitItems/wolf/_texture/Wolf01.PNG",
+    "bundle_factory/item_views/unitItems/wolf/_texture/Wolf01.PNG.meta",
+    "bundle_factory/item_views/unitItems/wolf/_texture/Wolf02.PNG",
+    "bundle_factory/item_views/unitItems/wolf/_texture/Wolf02.PNG.meta",
+    "bundle_factory/item_views/unitItems/wolf/_texture/Wolf03.PNG",
+    "bundle_factory/item_views/unitItems/wolf/_texture/Wolf03.PNG.meta",
+    "bundle_factory/item_views/unitItems/wolf/_texture/wolf_huang.mtl",
+    "bundle_factory/item_views/unitItems/wolf/_texture/wolf_huang.mtl.meta",
+    "bundle_factory/item_views/unitItems/wolf/_texture/wolf_hui.mtl",
+    "bundle_factory/item_views/unitItems/wolf/_texture/wolf_hui.mtl.meta",
+    "bundle_factory/item_views/unitItems/wolf/_texture/wolf_lan.mtl",
+    "bundle_factory/item_views/unitItems/wolf/_texture/wolf_lan.mtl.meta",
+    "bundle_factory/item_views/unitItems/wolf/_texture/wolf_with_anim.fbx",
+    "bundle_factory/item_views/unitItems/wolf/_texture/wolf_with_anim.fbx.meta",
+    "bundle_factory/item_views/unitItems/wolf/wolf.prefab",
+    "bundle_factory/item_views/unitItems/wolf/wolf.prefab.meta",
+    "bundle_factory/item_views/unitItems/wolf/wolf_hui.prefab",
+    "bundle_factory/item_views/unitItems/wolf/wolf_hui.prefab.meta",
+    "bundle_factory/item_views/unitItems/wolf/wolf_lan.prefab",
+    "bundle_factory/item_views/unitItems/wolf/wolf_lan.prefab.meta"
+  ],
+  "dependencies": [],
+  "stars": 4,
+  "appendScripts": [
+    {
+      "type": "enum",
+      "sourceFilePath": "script/managers/myFactory/factorys/UnitItemFactory.ts",
+      "className": "UnitItemFactory",
+      "enumName": "UnitItemEnums",
+      "enumKey": "wolf",
+      "enumValue": "wolf"
+    },
+    {
+      "type": "enum",
+      "sourceFilePath": "script/managers/myFactory/factorys/UnitItemFactory.ts",
+      "className": "UnitItemFactory",
+      "enumName": "UnitItemEnums",
+      "enumKey": "wolf_hui",
+      "enumValue": "wolf_hui"
+    },
+    {
+      "type": "enum",
+      "sourceFilePath": "script/managers/myFactory/factorys/UnitItemFactory.ts",
+      "className": "UnitItemFactory",
+      "enumName": "UnitItemEnums",
+      "enumKey": "wolf_lan",
+      "enumValue": "wolf_lan"
+    }
+  ],
+  "installedAt": "2025-11-21T12:15:42.529Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:44:09.548Z",
+  "isBackedUp": false
+}

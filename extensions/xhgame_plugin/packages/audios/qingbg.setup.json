@@ -1,0 +1,35 @@
+{
+  "componentCode": "qingbg",
+  "componentName": "背景轻音乐",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "2",
+    "3"
+  ],
+  "images": [],
+  "description": "背景轻音乐",
+  "author": "hd",
+  "group": "audio",
+  "tags": [
+    "轻音乐"
+  ],
+  "dependencies": [],
+  "files": [
+    "bundle_gate/audio/qingbg.mp3",
+    "bundle_gate/audio/qingbg.mp3.meta"
+  ],
+  "appendScripts": [
+    {
+      "type": "audio",
+      "sourceFilePath": "script/managers/MyAudioManager.ts",
+      "audioName": "qingbg",
+      "audioPath": "bundle_gate://audio/qingbg"
+    }
+  ],
+  "stars": 4,
+  "installedAt": "2025-11-21T12:16:10.879Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:43:27.088Z",
+  "isBackedUp": false
+}

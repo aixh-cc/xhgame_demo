@@ -1,0 +1,47 @@
+{
+  "componentCode": "gate_setting_dialog",
+  "componentName": "设置弹窗",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "设置弹窗",
+  "author": "hd",
+  "group": "guis",
+  "tags": [],
+  "dependencies": [],
+  "files": [
+    "script/uiViews/gate/dialog/GateSettingDialogView.ts",
+    "script/uiViews/gate/dialog/GateSettingDialogView.ts.meta",
+    "script/comps/gate/dialog/GateSettingDialogViewComp.ts",
+    "script/comps/gate/dialog/GateSettingDialogViewComp.ts.meta",
+    "bundle_gate/gui/dialog/gate_setting_dialog/_texture.meta",
+    "bundle_gate/gui/dialog/gate_setting_dialog/_texture/btn.png",
+    "bundle_gate/gui/dialog/gate_setting_dialog/_texture/btn.png.meta",
+    "bundle_gate/gui/dialog/gate_setting_dialog/_texture/dialog_bg.png",
+    "bundle_gate/gui/dialog/gate_setting_dialog/_texture/dialog_bg.png.meta",
+    "bundle_gate/gui/dialog/gate_setting_dialog/gate_setting_dialog.prefab",
+    "bundle_gate/gui/dialog/gate_setting_dialog/gate_setting_dialog.prefab.meta"
+  ],
+  "start": 4,
+  "appendScripts": [
+    {
+      "type": "gui",
+      "sourceFilePath": "script/managers/MyUiManager.ts",
+      "guiName": "gate_setting_dialog",
+      "guiPath": "bundle_gate://gui/dialog/gate_setting_dialog/gate_setting_dialog"
+    },
+    {
+      "type": "comp",
+      "sourceFilePath": "script/RegisterComps.ts",
+      "compName": "GateSettingDialogViewComp",
+      "compPath": "script/comps/gate/dialog/GateSettingDialogViewComp"
+    }
+  ],
+  "installedAt": "2025-11-21T12:15:12.584Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:44:47.443Z",
+  "isBackedUp": false
+}

@@ -1,0 +1,52 @@
+{
+  "componentCode": "loading_battle",
+  "componentName": "loading页",
+  "componentVersion": "1.0.1",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "loading页",
+  "author": "xhgame",
+  "group": "guis",
+  "tags": [
+    "loading页"
+  ],
+  "files": [
+    "bundle_gate/gui/panel/loading_battle.meta",
+    "bundle_gate/gui/panel/loading_battle/_texture.meta",
+    "bundle_gate/gui/panel/loading_battle/_texture/icon_loading_bar.png",
+    "bundle_gate/gui/panel/loading_battle/_texture/icon_loading_bar.png.meta",
+    "bundle_gate/gui/panel/loading_battle/_texture/jdt_bd.png",
+    "bundle_gate/gui/panel/loading_battle/_texture/jdt_bd.png.meta",
+    "bundle_gate/gui/panel/loading_battle/_texture/loading_bg.jpg",
+    "bundle_gate/gui/panel/loading_battle/_texture/loading_bg.jpg.meta",
+    "bundle_gate/gui/panel/loading_battle/loading_battle.prefab",
+    "bundle_gate/gui/panel/loading_battle/loading_battle.prefab.meta",
+    "script/comps/gate/panel/LoadingViewComp.ts",
+    "script/comps/gate/panel/LoadingViewComp.ts.meta",
+    "script/uiViews/gate/panel/LoadingView.ts",
+    "script/uiViews/gate/panel/LoadingView.ts.meta"
+  ],
+  "dependencies": [],
+  "start": 4,
+  "appendScripts": [
+    {
+      "type": "gui",
+      "sourceFilePath": "script/managers/MyUiManager.ts",
+      "guiName": "loading_battle",
+      "guiPath": "bundle_gate://gui/panel/loading_battle/loading_battle"
+    },
+    {
+      "type": "comp",
+      "sourceFilePath": "script/RegisterComps.ts",
+      "compName": "LoadingViewComp",
+      "compPath": "script/comps/gate/panel/LoadingViewComp"
+    }
+  ],
+  "installedAt": "2025-11-21T12:15:14.166Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:44:50.495Z",
+  "isBackedUp": false
+}

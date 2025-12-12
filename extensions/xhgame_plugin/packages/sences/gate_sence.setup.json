@@ -1,0 +1,53 @@
+{
+  "componentCode": "gate_sence",
+  "componentName": "gate场景",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "gate场景",
+  "author": "xhgame",
+  "group": "sences",
+  "tags": [
+    "gate场景"
+  ],
+  "files": [
+    "bundle_gate.meta",
+    "bundle_gate/audio.meta",
+    "bundle_gate/audio/gate_bg_audio.mp3",
+    "bundle_gate/audio/gate_bg_audio.mp3.meta",
+    "script/comps/gate/GateSenceComp.ts",
+    "script/comps/gate/GateSenceComp.ts.meta"
+  ],
+  "dependencies": [
+    {
+      "componentCode": "TiledItemFactory",
+      "group": "itemFactorys"
+    },
+    {
+      "componentCode": "UiItemFactory",
+      "group": "itemFactorys"
+    }
+  ],
+  "start": 4,
+  "appendScripts": [
+    {
+      "type": "comp",
+      "sourceFilePath": "script/RegisterComps.ts",
+      "compName": "GateSenceComp",
+      "compPath": "script/comps/gate/GateSenceComp"
+    },
+    {
+      "type": "audio",
+      "sourceFilePath": "script/managers/MyAudioManager.ts",
+      "audioName": "gate_bg_audio",
+      "audioPath": "bundle_gate://audio/gate_bg_audio"
+    }
+  ],
+  "installedAt": "2025-11-21T12:14:54.792Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:45:00.158Z",
+  "isBackedUp": false
+}

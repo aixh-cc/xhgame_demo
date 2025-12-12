@@ -1,0 +1,44 @@
+{
+  "componentCode": "anS",
+  "componentName": "暗地",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "3d精灵射手的暗地",
+  "author": "cocos",
+  "group": "tiledItems",
+  "tags": [
+    "环境"
+  ],
+  "files": [
+    "bundle_factory/item_views/tiledItems/anS.meta",
+    "bundle_factory/item_views/tiledItems/anS/_texture.meta",
+    "bundle_factory/item_views/tiledItems/anS/_texture/anS.FBX",
+    "bundle_factory/item_views/tiledItems/anS/_texture/anS.FBX.meta",
+    "bundle_factory/item_views/tiledItems/anS/_texture/youanzong.mtl",
+    "bundle_factory/item_views/tiledItems/anS/_texture/youanzong.mtl.meta",
+    "bundle_factory/item_views/tiledItems/anS/_texture/youanzong.png",
+    "bundle_factory/item_views/tiledItems/anS/_texture/youanzong.png.meta",
+    "bundle_factory/item_views/tiledItems/anS/anS.prefab",
+    "bundle_factory/item_views/tiledItems/anS/anS.prefab.meta"
+  ],
+  "dependencies": [],
+  "stars": 4,
+  "appendScripts": [
+    {
+      "type": "enum",
+      "sourceFilePath": "script/managers/myFactory/factorys/TiledItemFactory.ts",
+      "className": "TiledItemFactory",
+      "enumName": "TiledItemEnums",
+      "enumKey": "anS",
+      "enumValue": "anS"
+    }
+  ],
+  "installedAt": "2025-11-21T12:16:01.421Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:43:34.950Z",
+  "isBackedUp": false
+}

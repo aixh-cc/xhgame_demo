@@ -1,0 +1,39 @@
+{
+  "componentCode": "UnitTable",
+  "componentName": "单位数据表单",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "单位数据表单",
+  "author": "hd",
+  "group": "tables",
+  "tags": [
+    "table"
+  ],
+  "dependencies": [
+    "script/managers/myTable/MyTableConfig.ts"
+  ],
+  "files": [
+    "bundle_gate/table/unit.json",
+    "bundle_gate/table/unit.json.meta",
+    "script/managers/myTable/tables/UnitTable.ts",
+    "script/managers/myTable/tables/UnitTable.ts.meta"
+  ],
+  "stars": 4,
+  "appendScripts": [
+    {
+      "type": "table",
+      "sourceFilePath": "script/managers/myTable/MyTableConfig.ts",
+      "tableType": "unit",
+      "itemIName": "IUnitTableItem",
+      "tableClassName": "UnitTable"
+    }
+  ],
+  "installedAt": "2025-11-21T12:14:48.130Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:45:12.959Z",
+  "isBackedUp": false
+}

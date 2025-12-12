@@ -1,0 +1,37 @@
+{
+  "componentCode": "blood",
+  "componentName": "简易的数字血条",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "简易的数字血条",
+  "author": "xhgame",
+  "group": "unitUiItem",
+  "tags": [
+    "unitUiItem"
+  ],
+  "files": [
+    "bundle_factory/item_views/unitUiItems/blood/blood.prefab.meta",
+    "bundle_factory/item_views/unitUiItems/blood/blood.prefab",
+    "bundle_factory/item_views/unitUiItems/blood.meta"
+  ],
+  "dependencies": [],
+  "stars": 4,
+  "appendScripts": [
+    {
+      "type": "enum",
+      "sourceFilePath": "script/managers/myFactory/factorys/UnitUiItemFactory.ts",
+      "className": "UnitUiItemFactory",
+      "enumName": "UnitUiItemEnums",
+      "enumKey": "blood",
+      "enumValue": "blood"
+    }
+  ],
+  "installedAt": "2025-11-21T12:15:45.344Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:44:02.430Z",
+  "isBackedUp": false
+}

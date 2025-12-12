@@ -1,0 +1,27 @@
+{
+  "componentCode": "PlistSpriteComponent",
+  "componentName": "PlistSpriteComponent",
+  "componentVersion": "1.0.0",
+  "cocosVersions": [
+    "3"
+  ],
+  "images": [],
+  "description": "通过itemNo快速获取plist中的图片",
+  "author": "aixh",
+  "group": "ccComponents",
+  "tags": [
+    "ccComponents"
+  ],
+  "dependencies": [],
+  "files": [
+    "script/ccComponents/PlistSpriteComponent/PlistSpriteComponent.ts",
+    "script/ccComponents/PlistSpriteComponent/PlistSpriteComponent.ts.meta"
+  ],
+  "start": 4,
+  "appendScripts": [],
+  "installedAt": "2025-11-21T12:15:27.752Z",
+  "isUpdatable": false,
+  "isInstalled": true,
+  "backedUpAt": "2025-11-21T14:44:20.983Z",
+  "isBackedUp": false
+}

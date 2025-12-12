@@ -1378,7 +1378,7 @@
     },
     "_depth": 1,
     "_stencil": 0,
-    "_clearFlags": 7,
+    "_clearFlags": 14,
     "_rect": {
       "__type__": "cc.Rect",
       "x": 0,
@@ -1608,15 +1608,18 @@
     "_envLightingType": 0,
     "_envmapHDR": null,
     "_envmap": null,
-    "_envmapLDR": null,
+    "_envmapLDR": {
+      "__uuid__": "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0",
+      "__expectedType__": "cc.TextureCube"
+    },
     "_diffuseMapHDR": null,
     "_diffuseMapLDR": null,
-    "_enabled": false,
+    "_enabled": true,
     "_useHDR": false,
     "_editableMaterial": null,
     "_reflectionHDR": null,
     "_reflectionLDR": null,
-    "_rotationAngle": 77
+    "_rotationAngle": 0
   },
   {
     "__type__": "cc.FogInfo",
@@ -1639,7 +1642,7 @@
   },
   {
     "__type__": "cc.OctreeInfo",
-    "_enabled": false,
+    "_enabled": true,
     "_minPos": {
       "__type__": "cc.Vec3",
       "x": -1024,

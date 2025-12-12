@@ -1,0 +1,120 @@
+{
+    "name": "xhgame_plugin",
+    "version": "1.2.0",
+    "package_version": 2,
+    "type": "module",
+    "main": "./dist/browser.cjs",
+    "scripts": {
+        "dev:node": "tsx src/nodejs/main.ts",
+        "build:node": "rm -rf dist_for_node && tsc -p tsconfig.node.build.json && node -e \"require('fs').writeFileSync('dist_for_node/package.json', JSON.stringify({type:'commonjs'}, null, 2))\"",
+        "dev": "vite serve --mode development",
+        "build": "vue-tsc -b && vite build",
+        "build:web": "vue-tsc -b && vite build --config vite.config.web.ts --mode web",
+        "preview": "vite preview",
+        "preview-web": "vite preview --config vite.config.web.ts --outDir dist/web"
+    },
+    "dependencies": {
+        "@aixh-cc/xhgame_builder": "^0.0.1",
+        "adm-zip": "^0.5.16",
+        "archiver": "^5.3.1",
+        "cors": "^2.8.5",
+        "element-plus": "^2.8.6",
+        "express": "^4.18.2",
+        "highlight.js": "^11.9.0",
+        "multer": "^1.4.5-lts.1",
+        "tsrpc-browser": "^3.4.1",
+        "tsrpc-miniapp": "^3.4.1",
+        "vue": "^3.4.37",
+        "yauzl": "^2.10.0"
+    },
+    "devDependencies": {
+        "@cocos-fe/vite-plugin-cocos-panel": "^1.0.3",
+        "@cocos/creator-types": "^3.8.6",
+        "@types/adm-zip": "^0.5.7",
+        "@types/archiver": "^5.3.2",
+        "@types/cors": "^2.8.13",
+        "@types/express": "^4.17.17",
+        "@types/multer": "^1.4.7",
+        "@types/node": "^22.15.21",
+        "@types/yauzl": "^2.10.0",
+        "@vitejs/plugin-vue": "^5.2.2",
+        "@vue/tsconfig": "^0.7.0",
+        "rollup-plugin-node-externals": "^7.1.3",
+        "ts-node": "^10.9.1",
+        "tsx": "^4.20.6",
+        "typescript": "^5.8.2",
+        "unplugin-auto-import": "^0.18.6",
+        "unplugin-vue-components": "^0.27.5",
+        "vite": "^5.4.1",
+        "vue-tsc": "^2.1.10"
+    },
+    "contributions": {
+        "asset-db": {
+            "mount": {
+                "path": "./assets",
+                "readonly": false
+            }
+        },
+        "menu": [{
+            "path": "i18n:menu.panel/xhgame_plugin",
+            "label": "i18n:xhgame_plugin.title",
+            "message": "open"
+        }],
+        "messages": {
+            "increase": {
+                "info": "测试increase",
+                "methods": [
+                    "default.increase"
+                ]
+            },
+            "open": {
+                "info": "打开插件面板",
+                "methods": [
+                    "open"
+                ]
+            },
+            "get-version": {
+                "info": "获取编辑版本",
+                "methods": [
+                    "getVersion"
+                ]
+            },
+            "get-packages": {
+                "info": "获取组件列表",
+                "methods": [
+                    "getPackages"
+                ]
+            },
+            "install-component": {
+                "info": "安装组件",
+                "methods": [
+                    "installComponent"
+                ]
+            },
+            "uninstall-component": {
+                "info": "卸载组件",
+                "methods": [
+                    "uninstallComponent"
+                ]
+            },
+            "rollback-component": {
+                "info": "回滚组件",
+                "methods": [
+                    "rollbackComponent"
+                ]
+            }
+        }
+    },
+    "panels": {
+        "default": {
+            "main": "./dist/panel.cjs",
+            "size": {
+                "min-width": 400,
+                "min-height": 300,
+                "width": 800,
+                "height": 700
+            }
+        }
+    },
+    "author": "Cocos Creator"
+}

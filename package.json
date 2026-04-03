@@ -5,7 +5,7 @@
     "version": "3.8.7"
   },
   "dependencies": {
-    "@aixh-cc/xhgame_ec_framework": "^1.2.0"
+    "@aixh-cc/xhgame_ec_framework": "^1.6.0"
   },
   "devDependencies": {
     "node-localstorage": "^3.0.5",
